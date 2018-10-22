@@ -14,7 +14,7 @@ Rehberde yanıt bulamadığınız ve de anlaşılır gelmeyen konularla ilgili b
 2. **Sitenizin altyapısı :** Sitenizin altyapısına uygun modülümüzü indirerek entegrasyonu gerçekleştirmelisiniz.
 3. **Entegrasyon testleri :** Ödeme sisteminin sitenizde sağlıklı şekilde çalıştığından emin olmak için gerekli olan en temel testlerdir.
 
-### **Api Anahtarı ve Güvenlik Anahtarı** {#api-anahtari-ve-guevenlik-anahtari}
+### **Api Anahtarı ve Güvenlik Anahtarı** <a id="api-anahtari-ve-guevenlik-anahtari"></a>
 
 "API Anahtarı" ve "Güvenlik Anahtarı" bilgilerine iyzico panelinize [https://merchant.iyzipay.com/login](https://merchant.iyzipay.com/login) adresinden girerek, Ayarlar menüsünden ulaşabilirsiniz.
 
@@ -22,7 +22,7 @@ Api anahtarlarınız iyzico ile bağlantı kurmanızı sağlayan temel değerler
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LH1lc6K6sXEqXUGHpw6%2F-LHDAny9AyuEoODhXFz7%2F-LHDCnkaw8UukYwI6Do3%2FScreen_Shot_2018-07-11_at_10_13_26.png?alt=media&token=267a0eaf-679b-41cd-ba33-3e07bd0f2c7d)
 
-### **Site Altyapısı** {#site-altyapisi}
+### **Site Altyapısı** <a id="site-altyapisi"></a>
 
 “Api Anahtarı" ve "Güvenlik Anahtarı" bilgilerinizi sitenizin yönetici panelinde, iyzico ayarları kısmında, ilgili bölüme giriniz. Bu konuda altyapı sağlayıcınızdan destek alabilir, aşağıdaki adımları takip ederek entegrasyonu gerçekleştirebilirsiniz.
 

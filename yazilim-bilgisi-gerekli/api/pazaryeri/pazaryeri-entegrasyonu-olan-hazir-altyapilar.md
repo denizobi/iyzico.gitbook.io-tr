@@ -1,6 +1,6 @@
 # Pazaryeri Entegrasyonu Olan Hazır Altyapılar
 
-### Kmk {#kmk}
+### Kmk <a id="kmk"></a>
 
 Web Sitesi : kmk.net.tr
 
@@ -8,7 +8,7 @@ Tel : 0850 333 0 565
 
 Mail : bilgi@kmk.net.tr
 
-### Rgs Yazılım {#rgs-yazilim}
+### Rgs Yazılım <a id="rgs-yazilim"></a>
 
 Web Sitesi : summercart.com.tr
 
