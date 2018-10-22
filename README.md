@@ -4,6 +4,8 @@ description: 'iyzico''nun API''sini, dokümanlarını ve ödeme çözümlerini k
 
 # Entegrasyon
 
+## Başlarken
+
 {% hint style="danger" %}
 Bu portalda anlatılan tüm ürünler "Ayarlar-Firma Ayarları" menüsünde API ve Güvenlik Anahtarını görebilen kurumsal hesap sahiplerine hitap etmektedir.
 {% endhint %}
@@ -20,6 +22,14 @@ iyzico'nun 2 farklı ortamı bulunmaktadır ve birbirinden bağımsızdır. Öze
 | loginSmsKodu | 123456 | Cep telefonunuza iletilir. |
 | 3dSifre | 283126 | İşlem yapılan kart üzerindeki kayıtlı telefona gider. |
 | Test | Test etmek için test kartlarını kullanabilirsiniz. | 1 TRY'lik temsili ürün oluşturup kişisel kartınız ile test edebilirsiniz. |
+
+## Kullandığınız Altyapı
+
+{% page-ref page="hizli-ve-kolay/" %}
+
+{% page-ref page="teknik-bilgi-gerekli/" %}
+
+{% page-ref page="yazilim-bilgisi-gerekli/" %}
 
 
 
