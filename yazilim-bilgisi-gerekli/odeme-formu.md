@@ -273,8 +273,8 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 | installment | Ödeme seçilen taksit değeri. Kontrol edilmelidir.  |
 | paymentId | Ödemeye iyzico tarafından verilen eşsiz değer. Ödemenin iptalinde kullanılır. Saklanmalıdır. |
 | fraudStatus |  Entegrasyon ekibinin yönlendirmesi ile gri alan entegrasyonlarında kullanılır. |
-| merchantCommissionRate |  |
-| merchantCommissionRateAmount |  |
+| merchantCommissionRate | price ve paidPrice arasında farkın orantısal değeridir.  |
+| merchantCommissionRateAmount | price ve paidPrice arasında farkın tutarsal değeridir.  |
 | iyziCommissionRateAmount | iyzico'nun bu ödemeden aldığı yüzdesel komisyonunun tutarını belirtir. |
 | iyziCommissionFee | iyzico'nun bu ödemeden aldığı sabir tutarlı komisyonu belirtir. |
 | cardType | Ödeme yapılan kartın tipini döner. Kredi kartı..vb |
@@ -295,12 +295,12 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 | errorCode | status değeri failure olduğunda hata mesajının kodunu döner. |
 | errorMessage | status değeri failure olduğunda hata mesajının içeriğini döner. |
 | errorGroup | status değeri failure oldıuğunda hata mesajının grubunu döner. |
-| mdStatus |  |
-| itemId |  |
-| paymentTransactionId |  |
-| transactionStatus |  |
-| itemPrice |  |
-| itemPaidPrice |  |
+| mdStatus | 3D olarak yapılan ödemelerde ek bilgi dönen değerdir. |
+| itemId | Sepetteki ürüne verdiğiniz ID değeridir. |
+| paymentTransactionId | iyzico'nun sepette gönderilen ürüne verdiği eşsiz ID değeridir. Saklanmalıdır. |
+| transactionStatus | Sepetteki ürünün iyzico'daki durumunu gösterir. |
+| itemPrice | Sepetteki ürünün fiyatıdır. |
+| itemPaidPrice | Sepetteki ürünün paidPrice ile arasındaki fark uygulandıktan sonraki fiyatıdır. |
 | itemMerchantCommissionRate |  |
 | itemMerchantCommissionRateAmount |  |
 | itemIyziCommissionRateAmount |  |
@@ -310,9 +310,9 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 | itemBlockageRateAmountSubMerchant |  |
 | itemBlockageResolvedDate |  |
 | itemSubMerchantPrice |  |
-| itemSubMerchantPayoutRate |  |
-| itemSubMerchantPayoutAmount |  |
-| itemMerchantPayoutAmount |  |
+| itemSubMerchantPayoutRate | Sepetteki üründen alt üye iş yerine aktarılacak tutarın orantısal değeridir. |
+| itemSubMerchantPayoutAmount | Sepetteki üründen alt üye işyerine aktarılacak tutardır. |
+| itemMerchantPayoutAmount | Sepetteki üründen üye işyerine aktarılacak tutardır. |
 | itemConvertedPaidPrice |  |
 | itemConvertedIyziCommissionRateAmount |  |
 | itemConvertedIyziCommissionFee |  |
