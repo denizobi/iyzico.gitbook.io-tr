@@ -301,15 +301,15 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 | transactionStatus | Sepetteki ürünün iyzico'daki durumunu gösterir. |
 | itemPrice | Sepetteki ürünün fiyatıdır. |
 | itemPaidPrice | Sepetteki ürünün paidPrice ile arasındaki fark uygulandıktan sonraki fiyatıdır. |
-| itemMerchantCommissionRate |  |
-| itemMerchantCommissionRateAmount |  |
-| itemIyziCommissionRateAmount |  |
-| itemIyziCommissionFee |  |
-| itemBlockageRate |  |
-| itemBlockageRateAmountMerchant |  |
-| itemBlockageRateAmountSubMerchant |  |
-| itemBlockageResolvedDate |  |
-| itemSubMerchantPrice |  |
+| itemMerchantCommissionRate | iyzico'nun komisyon oranıdır. |
+| itemMerchantCommissionRateAmount | iyzico'nun komisyon tutarıdır. |
+| itemIyziCommissionRateAmount | Kırılım bazında iyzico'nun komisyon tutarıdır. |
+| itemIyziCommissionFee | Kırılım bazında iyzico'nun komisyon tutarıdır. |
+| itemBlockageRate | Kullanılmamaktadır. |
+| itemBlockageRateAmountMerchant | Kullanılmamaktadır. |
+| itemBlockageRateAmountSubMerchant | Kullanılmamaktadır. |
+| itemBlockageResolvedDate | Kullanılmamaktadır. |
+| itemSubMerchantPrice | Sepetteki üründen alt üye işyerine gönderilecek tutar. |
 | itemSubMerchantPayoutRate | Sepetteki üründen alt üye iş yerine aktarılacak tutarın orantısal değeridir. |
 | itemSubMerchantPayoutAmount | Sepetteki üründen alt üye işyerine aktarılacak tutardır. |
 | itemMerchantPayoutAmount | Sepetteki üründen üye işyerine aktarılacak tutardır. |
