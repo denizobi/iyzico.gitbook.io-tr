@@ -18,17 +18,7 @@ Bu entegrasyonu yapabilmeniz için iyzico hesabınıza giriş yaptıktan sonra [
 
 iyzico sürekli gelişmekte olan kapsamlı bir Sandbox \(Test\) ortamı sunar. Sandbox ortamında hesap oluşturmak için[ bu bağlantıyı](https://sandbox-merchant.iyzipay.com/auth/register) kullanabilirsiniz. Test ortamında test kartları ile kullanılmak üzere API ve Güvenlik anahtarlarınıza, email adresiniz ile kayıt oluşturup, panelinizin "Ayarlar-&gt;Firma Ayarları" bölümünden ulaşabilirsiniz.
 
-{% hint style="danger" %}
-iyzico'da 2 farklı ortam bulunmaktadır. Canlı \(Live\) ortam ve Sandbox \(Test\) ortamı. **Canlı**  kontrol panelinizden erişebileceğiniz API ve Güvenlik anahtarları, **Sandbox** kontrol panelinizdekilerden farklıdır. Bu nedenden dolayı iki ortamın baseUrl değerleri aşağıdaki gibidir. Bu değerleri **kütüphanenizdeki** config dosyasında kullanabilirsiniz.
-
-**Canlı** ortamtaki anahtarlar için **\(Live\)** : **`https://api.iyzipay.com`**
-
-**Sandbox** ortamındaki anahtarlar için **\(Test\)** :**`https://sandbox-api.iyzipay.com`**
-{% endhint %}
-
-## 
-
-|  **** | Sandbox \(Test\) | Canlı \(Production\) |
+|  **** | Sandbox \(Test\) | Canlı \(Gerçek\) |
 | :--- | :--- | :--- |
 | hesapOluştur | ​[https://sandbox-merchant.iyzipay.com/auth](https://sandbox-merchant.iyzipay.com/auth)​ | ​[https://www.iyzico.com/hesap-olustur](https://www.iyzico.com/hesap-olustur)​ |
 | panel | ​[https://sandbox-merchant.iyzipay.com/dashboard](https://sandbox-merchant.iyzipay.com/dashboard)​ | ​[https://merchant.iyzipay.com/dashboard](https://merchant.iyzipay.com/dashboard)​ |
