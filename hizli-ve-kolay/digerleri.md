@@ -8,84 +8,14 @@ description: Türkiyenin en çok tercih edilen eticaret altyapıları
 | :--- | :--- | :--- | :--- |
 | Natro | natro.com | 02122131213 | destek@natro.com |
 | Projesoft | projesoft.com | 08502550383 | destek@projesoft.com |
-
-### Natro
-
-Web Sitesi : www.natro.com
-
-Tel : 0212 213 1 213
-
-Mail : destek@natro.com
-
-### Projesoft
-
-Web Sitesi : www.projesft.com.tr
-
-Tel : 0850 255 03 83
-
-Mail : destek@projesoft.com
-
-### Hipotenüs
-
-Web Sitesi : www.projesft.com.tr
-
-Tel : 0850 441 40 84
-
-Mail : bilgi@hipotenus.com.tr
-
-### N11 Mağazam
-
-Web Sitesi : n11magazam.com
-
-Tel : 0850 532 32 11
-
-Mail : destek@n11magazam.com
-
-### Noah
-
-Web Sitesi : noah.la
-
-Tel : 0212 970 06 93
-
-Mail : hello@noah.la
-
-### Neticaret
-
-Web Sitesi : ecozum.com.tr
-
-Tel : 0212 256 60 00
-
-Mail : bilgi@netahsilat.com
-
-### Ganipara
-
-Web Sitesi : ganipara.com
-
-Tel : 0850 885 00 98
-
-Mail : yardim@ganipara.com
-
-### ShopPhp
-
-Web Sitesi : shopphp.net
-
-Tel : 0216 414 0854
-
-Mail : satis@shopphp.net
-
-### ByGo
-
-Web Sitesi : bygo.io
-
-Mail : info@bygo.io
-
-### Eticaretkur
-
-Web Sitesi : eticaretkur.com
-
-Tel : 0850 303 61 00
-
-Mail : bilgi@eticaretkur.com
+| Hipotenüs | hipotenus.com.tr | 08504414084 | bilgi@hipotenus.com.tr |
+| N11 mağazam | n11magazam.com | 08505323211 | destek@n11magazam.com |
+| Noah | noah.la | 02129700693 | hello@noah.la |
+| Neticaret | ecozum.com.tr | 02122566000 | bilgi@netahsilat.com |
+| Ganipara | ganipara.com | 08508850098 | yardim@ganipara.com |
+| Shopphp | shopphp.net | 02164140854 | satis@shopphp.net |
+| ByGo | bygo.io |  | info@bygo.io |
+| Eticaretkur | eticaretkur.com | 08503036100 | bilgi@eticaretkur.com |
 
 ### Faprika
 
