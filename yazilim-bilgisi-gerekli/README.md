@@ -16,17 +16,19 @@ Bu entegrasyonu yapabilmeniz için iyzico hesabınıza giriş yaptıktan sonra [
 
 ## Nasıl Çalışır ?
 
-iyzico sürekli gelişmekte olan kapsamlı bir Sandbox \(Test\) ortamı sunar. Sandbox ortamında hesap oluşturmak için[ bu bağlantıyı](https://sandbox-merchant.iyzipay.com/auth/register) kullanabilirsiniz. Test ortamında test kartları ile kullanılmak üzere API ve Güvenlik anahtarlarınıza, email adresiniz ile kayıt oluşturup, panelinizin "Ayarlar-&gt;Firma Ayarları" bölümünden ulaşabilirsiniz.
+iyzico sürekli gelişmekte olan kapsamlı bir Sandbox \(Test\) ortamı sunar. Sandbox ortamında hesap oluşturmak için[ bu bağlantıyı](https://sandbox-merchant.iyzipay.com/auth/register) kullanabilirsiniz. 
+
+iyzico'nun 2 ortamı bulunmaktadır ve birbirinden bağımsızdır. Özetlemek gerekir ise **test** ortamında **test** kartları ile işlem yapılabilirken **gerçek** ortamda **gerçek** kartlar ile işlem yapılabilmektedir.
 
 |  **** | Sandbox \(Test\) | Canlı \(Gerçek\) |
 | :--- | :--- | :--- |
-| hesapOluştur | ​[https://sandbox-merchant.iyzipay.com/auth](https://sandbox-merchant.iyzipay.com/auth)​ | ​[https://www.iyzico.com/hesap-olustur](https://www.iyzico.com/hesap-olustur)​ |
-| panel | ​[https://sandbox-merchant.iyzipay.com/dashboard](https://sandbox-merchant.iyzipay.com/dashboard)​ | ​[https://merchant.iyzipay.com/dashboard](https://merchant.iyzipay.com/dashboard)​ |
+| Hesap Oluştur | ​[https://sandbox-merchant.iyzipay.com/auth](https://sandbox-merchant.iyzipay.com/auth)​ | ​[https://www.iyzico.com/hesap-olustur](https://www.iyzico.com/hesap-olustur)​ |
+| Panel | ​[https://sandbox-merchant.iyzipay.com/dashboard](https://sandbox-merchant.iyzipay.com/dashboard)​ | ​[https://merchant.iyzipay.com/dashboard](https://merchant.iyzipay.com/dashboard)​ |
 | baseUrl | ​[https://sandbox-api.iyzipay.com/](https://sandbox-api.iyzipay.com/)​ | ​[https://api.iyzipay.com/](https://api.iyzipay.com/)​ |
 | apiKey | Firma ayarları menüsünde görüntüleyebilirsiniz. "**sandbox-..."** ile başlar | Firma ayarları menüsünde görüntüleyebilirsiniz. |
 | secretKey | Firma ayarları menüsünde görüntüleyebilirsiniz. "**sandbox-..."** ile başlar | Firma ayarları menüsünde görüntüleyebilirsiniz. |
-| loginSmsKodu | 123456 | Cep telefonunuza iletilir. |
-| 3dSifre | 283126 | İşlem yapılan kart üzerindeki kayıtlı telefona gider. |
+| Login Sms Kodu | 123456 | Cep telefonunuza iletilir. |
+| 3D Şifre | 283126 | İşlem yapılan kart üzerindeki kayıtlı telefona gider. |
 | Test | Test etmek için test kartlarını kullanabilirsiniz. | 1 TRY'lik temsili ürün oluşturup kişisel kartınız ile test edebilirsiniz. |
 
 ## Hadi Başlayalım
