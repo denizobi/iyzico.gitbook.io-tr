@@ -6,10 +6,10 @@ description: Türkiyenin en çok tercih edilen eticaret altyapıları
 
 | Altyapı | Websitesi | Telefon | Mail | Anında Sanal Pos |
 | :--- | :--- | :--- | :--- | :--- |
-| ByGo | bygo.io |  | `info@bygo.io` |  |
-| Clouds Eticaret | cloudseticaret.com | 3124266355 | `bilgi@cloudseticaret.com` |  |
-| Daynex | dayneks.com | 4440682 | `info@daynex.com` |  |
-| Deltapro | deltapro.com.tr | 2324633059 | `info@deltapro.com.tr` |  |
+| ByGo | bygo.io |  | info@bygo.io |  |
+| Clouds Eticaret | cloudseticaret.com | 3124266355 | bilgi@cloudseticaret.com |  |
+| Daynex | dayneks.com | 4440682 | info@daynex.com |  |
+| Deltapro | deltapro.com.tr | 2324633059 | info@deltapro.com.tr |  |
 | Eticaretin | eticaretin.com | +1 4082206468 | ​ |  |
 | Eticaretkur | eticaretkur.com | 8503036100 | bilgi@eticaretkur.com |  |
 | Eticaretsoft | eticaretsoft.com | 8505322814 | info@eticaretsoft.com |  |
