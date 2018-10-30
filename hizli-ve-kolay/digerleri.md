@@ -20,7 +20,7 @@ description: Türkiyenin en çok tercih edilen eticaret altyapıları
 | Kmk | kmk.net.tr | 8503330565 | bilgi@kmk.net.tr |  |
 | MarkaClick | markaclick.com.tr | 2164141874 | bilgi@markaclick.com.tr |  |
 | N11 mağazam | n11magazam.com | 8505323211 | destek@n11magazam.com |  |
-| Natro | natro.com | 2122131213 | destek@natro.com | Var |
+| Natro | natro.com | 2122131213 | destek@natro.com | ✅ |
 | Neticaret | ecozum.com.tr | 2122566000 | bilgi@netahsilat.com |  |
 | Nettenetiz | nettenetiz.net | 2165507071 | bilgi@nettenetiz.net |  |
 | Noah | noah.la | 2129700693 | hello@noah.la |  |
