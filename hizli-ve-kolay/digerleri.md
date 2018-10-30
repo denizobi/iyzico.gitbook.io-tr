@@ -4,6 +4,11 @@ description: Türkiyenin en çok tercih edilen eticaret altyapıları
 
 # Diğerleri
 
+| Sistem | Websitesi | Telefon | Mail |
+| :--- | :--- | :--- | :--- |
+| Natro | natro.com | 02122131213 | destek@natro.com |
+| Projesoft | projesoft.com | 08502550383 | destek@projesoft.com |
+
 ### Natro
 
 Web Sitesi : www.natro.com
