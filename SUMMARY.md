@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Hoşgeldiniz](README.md)
+* [iyzico'ya Hoşgeldiniz](README.md)
 * [Hızlı ve Kolay](hizli-ve-kolay/README.md)
   * [Ideasoft](hizli-ve-kolay/ideasoft.md)
   * [Ticimax](hizli-ve-kolay/ticimax.md)

@@ -2,15 +2,15 @@
 description: 'iyzico''nun API''sini, dokümanlarını ve ödeme çözümlerini keşfedin.'
 ---
 
-# Hoşgeldiniz
+# iyzico'ya Hoşgeldiniz
+
+Sadece API
 
 ## Başlarken
 
 {% hint style="danger" %}
 Bu portalda anlatılan tüm ürünler "Ayarlar-Firma Ayarları" menüsünde API ve Güvenlik Anahtarını görebilen **kurumsal hesap** sahiplerine hitap etmektedir. Gönderilen elektronik sözleşme onaylandığında hesap statüsü entegrasyon aşamasına gelmektedir. Hesabınızın durumu ve sorularınız için `destek@iyzico.com` ile iletişime geçebilirsiniz.
 {% endhint %}
-
-iyzico'nun 2 ortamı bulunmaktadır ve birbirinden bağımsızdır. Özetlemek gerekir ise **test** ortamında **test** kartları ile işlem yapılabilirken **gerçek** ortamda **gerçek** kartlar ile işlem yapılabilmektedir.
 
 ## Kullandığınız Altyapı
 
