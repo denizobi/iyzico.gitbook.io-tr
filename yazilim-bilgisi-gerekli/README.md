@@ -4,7 +4,7 @@ description: >-
   ulaşabilir.
 ---
 
-# Yazılım bilgisi gerekli
+# Yazılım ekibi gerekli
 
 ## Genel Bilgi
 

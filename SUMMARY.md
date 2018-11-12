@@ -1,7 +1,7 @@
 # Table of contents
 
 * [iyzico'ya Hoşgeldiniz](README.md)
-* [Hızlı ve Kolay](hizli-ve-kolay/README.md)
+* [Hızlı ve kolay](hizli-ve-kolay/README.md)
   * [Ideasoft](hizli-ve-kolay/ideasoft.md)
   * [Ticimax](hizli-ve-kolay/ticimax.md)
   * [Tsoft](hizli-ve-kolay/tsoft.md)
@@ -17,7 +17,7 @@
   * [Woocommerce](teknik-bilgi-gerekli/woocommerce.md)
   * [Prestashop](teknik-bilgi-gerekli/prestashop.md)
   * [Magento](teknik-bilgi-gerekli/magento.md)
-* [Yazılım bilgisi gerekli](yazilim-bilgisi-gerekli/README.md)
+* [Yazılım ekibi gerekli](yazilim-bilgisi-gerekli/README.md)
   * [Ödeme Formu](yazilim-bilgisi-gerekli/odeme-formu.md)
   * [Payment API](yazilim-bilgisi-gerekli/api/README.md)
     * [Taksit ve Bin Sorgulama](yazilim-bilgisi-gerekli/api/taksit-ve-bin-sorgulama.md)

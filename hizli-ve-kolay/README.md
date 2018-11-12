@@ -4,5 +4,5 @@ description: >-
   sitesi tarafından kullanılmaktadır.
 ---
 
-# Hızlı ve Kolay
+# Hızlı ve kolay
 
