@@ -4,13 +4,15 @@ description: 'iyzico''nun API''sini, dokümanlarını ve ödeme çözümlerini k
 
 # iyzico'ya Hoşgeldiniz
 
-Sadece API
+iyzico ile ödeme almayı 3 grupta inceleyebiliriz. Tüm seçenekler için "Ayarlar-&gt;Firma Ayarları" menüsünde API ve Güvenlik anahtarını görebiliyor olmanız gereklidir. Göremediğiniz durumlarda başvurunuz ile alakalı `destek@iyzico.com` adresine ulaşabilirsiniz. 
+
+| Seçenek | Entegrasyon Zorluğu |
+| :--- | :--- |
+| Hızlı ve kolay | ⬛️🔲🔲🔲🔲 |
+| Teknik bilgi gerekli | ⬛️⬛️⬛️🔲🔲 |
+| Yazılım ekibi gerekli | ⬛️⬛️⬛️⬛️⬛️ |
 
 ## Başlarken
-
-{% hint style="danger" %}
-Bu portalda anlatılan tüm ürünler "Ayarlar-Firma Ayarları" menüsünde API ve Güvenlik Anahtarını görebilen **kurumsal hesap** sahiplerine hitap etmektedir. Gönderilen elektronik sözleşme onaylandığında hesap statüsü entegrasyon aşamasına gelmektedir. Hesabınızın durumu ve sorularınız için `destek@iyzico.com` ile iletişime geçebilirsiniz.
-{% endhint %}
 
 ## Kullandığınız Altyapı
 
