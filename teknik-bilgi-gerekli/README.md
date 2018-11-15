@@ -15,10 +15,10 @@ description: >-
 
 | Altyapı | Versiyon | Video Anlatım | Demo |
 | :--- | :--- | :--- | :--- |
-| Opencart | 3.0 ve üzeri |  |  |
-| Woocommerce |  |  |  |
-| Prestashop |  |  |  |
-| Magento |  |  |  |
+| Opencart | 3.0 ve üzeri | [Youtube](https://www.youtube.com/watch?v=b3P_SuLMg0c) | [Test](https://www.iyziodeme.com/test/opencart/3.0.2.0/upload/) |
+| Woocommerce | 3.0 ve üzeri | [Youtube](https://www.youtube.com/watch?v=_BjALWaLuZU) | [Test](https://www.iyziodeme.com/test/woocommerce/) |
+| Prestashop | 1.7 ve üzeri | [Youtube](https://www.youtube.com/watch?v=7pLjPOErh20) |  |
+| Magento | 2.2 ve üzeri | Youtube |  |
 
 
 
