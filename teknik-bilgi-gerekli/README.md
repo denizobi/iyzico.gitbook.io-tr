@@ -7,7 +7,7 @@ description: >-
 # Teknik bilgi gerekli
 
 {% hint style="danger" %}
-**UYARI**
+**ÖNEMLİ UYARI**
 
 1. Çalıştığınız hosting firmasının TLS 1.2 ile sorgu yapabildiğinden emin olunuz.
 2. iyzico'nun modülleri yalın \(hiç eklenti kurulmamış\) kurulumlarda çalışır.
