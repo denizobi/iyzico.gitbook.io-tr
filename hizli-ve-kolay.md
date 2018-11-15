@@ -6,6 +6,13 @@ description: >-
 
 # Hızlı ve kolay
 
+Entegrasyon için zaman harcamanıza gerek yoktur.
+
+* Tek yapmanız gereken iyzico API ve Güvenlik anahtarını kopyalayıp seçtiğiniz altyapının panelindeki ilgili kısma yapıştırıp kaydetmektir.
+* Entegrasyon'u sizin yerinize ilgili firma yapmış ve test etmiştir.
+* iyzico ile çalışan canlı ortamda bir örneği seçtiğiniz firmadan isteyebilirsiniz.
+* Seçim yapmadan önce özel ihtiyaçlarınızı \(Abonelik, tek tıkla ödeme, kart saklama, iptal ve iadeleri altyapı panelinden tetikleme..vb\) gibi özellikleri destek aldığınız firma ile kontrol etmelisiniz.
+
 
 
 | Websitesi | Telefon | Mail | Anında Sanal Pos |
