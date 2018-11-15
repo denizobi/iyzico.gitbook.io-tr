@@ -2,11 +2,7 @@
 
 * [iyzico'ya Hoşgeldiniz](README.md)
 * [Hızlı ve kolay](hizli-ve-kolay.md)
-* [Teknik bilgi gerekli](teknik-bilgi-gerekli/README.md)
-  * [Opencart](teknik-bilgi-gerekli/opencart.md)
-  * [Woocommerce](teknik-bilgi-gerekli/woocommerce.md)
-  * [Prestashop](teknik-bilgi-gerekli/prestashop.md)
-  * [Magento](teknik-bilgi-gerekli/magento.md)
+* [Teknik bilgi gerekli](teknik-bilgi-gerekli.md)
 * [Yazılım ekibi gerekli](yazilim-bilgisi-gerekli/README.md)
   * [Ödeme Formu](yazilim-bilgisi-gerekli/odeme-formu.md)
   * [Payment API](yazilim-bilgisi-gerekli/api/README.md)

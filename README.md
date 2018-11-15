@@ -13,7 +13,7 @@ description: 'iyzico''nun API''sini, dokümanlarını ve ödeme çözümlerini k
 | Kullanılan sistem | Entegrasyon zorluğu |
 | :--- | :--- |
 | [Hızlı ve kolay](hizli-ve-kolay.md) | ⬛️🔲🔲🔲🔲 |
-| [Teknik bilgi gerekli](teknik-bilgi-gerekli/) | ⬛️⬛️⬛️🔲🔲 |
+| [Teknik bilgi gerekli](teknik-bilgi-gerekli.md) | ⬛️⬛️⬛️🔲🔲 |
 | [Yazılım ekibi gerekli](yazilim-bilgisi-gerekli/) | ⬛️⬛️⬛️⬛️⬛️ |
 
 
