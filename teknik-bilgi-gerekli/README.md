@@ -9,6 +9,9 @@ description: >-
 | Altyapı | Versiyon |
 | :--- | :--- |
 | Opencart | 3.0 ve üzeri |
+| Woocommerce |  |
+| Prestashop |  |
+| Magento |  |
 
 
 
