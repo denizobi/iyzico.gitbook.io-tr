@@ -6,3 +6,9 @@ description: >-
 
 # Teknik bilgi gerekli
 
+| Altyapı | Versiyon |
+| :--- | :--- |
+| Opencart | 3.0 ve üzeri |
+
+
+
