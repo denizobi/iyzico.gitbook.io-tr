@@ -8,7 +8,7 @@ iyzico ile ödeme almayı 3 grupta inceleyebiliriz. Aşağıdaki tüm seçenekle
 
 | Kullanılan sistem | Entegrasyon zorluğu |
 | :--- | :--- |
-| [Hızlı ve kolay](hizli-ve-kolay/) | ⬛️🔲🔲🔲🔲 |
+| [Hızlı ve kolay](hizli-ve-kolay.md) | ⬛️🔲🔲🔲🔲 |
 | [Teknik bilgi gerekli](teknik-bilgi-gerekli/) | ⬛️⬛️⬛️🔲🔲 |
 | [Yazılım ekibi gerekli](yazilim-bilgisi-gerekli/) | ⬛️⬛️⬛️⬛️⬛️ |
 

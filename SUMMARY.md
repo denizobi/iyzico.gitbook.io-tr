@@ -1,8 +1,7 @@
 # Table of contents
 
 * [iyzico'ya Hoşgeldiniz](README.md)
-* [Hızlı ve kolay](hizli-ve-kolay/README.md)
-  * [Hazır altyapılar](hizli-ve-kolay/digerleri.md)
+* [Hızlı ve kolay](hizli-ve-kolay.md)
 * [Teknik bilgi gerekli](teknik-bilgi-gerekli/README.md)
   * [Opencart](teknik-bilgi-gerekli/opencart.md)
   * [Woocommerce](teknik-bilgi-gerekli/woocommerce.md)
