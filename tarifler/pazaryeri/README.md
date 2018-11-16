@@ -1,5 +1,5 @@
 ---
-description: iyzibazaar
+description: iyzibazaar.
 ---
 
 # Pazaryeri
