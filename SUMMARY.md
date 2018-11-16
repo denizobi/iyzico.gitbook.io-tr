@@ -11,7 +11,7 @@
 ## rehberler
 
 * [Ödeme Formu](tarifler/odeme-formu.md)
-* [Payment API](tarifler/api/README.md)
+* [Server to Server](tarifler/api/README.md)
   * [Taksit ve Bin Sorgulama](tarifler/api/taksit-ve-bin-sorgulama.md)
   * [Ödeme](tarifler/api/odeme.md)
   * [3d Ödeme](tarifler/api/3d-odeme/README.md)

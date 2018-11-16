@@ -1,2 +1,2 @@
-# Payment API
+# Server to Server
 
