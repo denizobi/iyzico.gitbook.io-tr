@@ -1,2 +1,2 @@
-# Server to Server
+# Kendi ödeme formunuz
 
