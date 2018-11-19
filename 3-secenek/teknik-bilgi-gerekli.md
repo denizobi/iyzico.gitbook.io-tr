@@ -20,7 +20,4 @@ description: >-
 | Woocommerce | 3.0 ve üzeri | [Youtube](https://www.youtube.com/watch?v=_BjALWaLuZU) | [Test](https://www.iyziodeme.com/test/woocommerce/) |
 | Prestashop | 1.7 ve üzeri | [Youtube](https://www.youtube.com/watch?v=7pLjPOErh20) |  |
 | Magento | 2.2 ve üzeri | Youtube |  |
-| Opencart | 2.3 ve 3.0 arası | Youtube |  |
-| Prestashop | 1.6 ve 1.7 arası | Youtube |  |
-|  |  |  |  |
 
