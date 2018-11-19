@@ -9,16 +9,17 @@ description: >-
 {% hint style="danger" %}
 **ÖNEMLİ UYARI**
 
-1. iyzico API ve Güvenlik anahtarını ilgili altyapının paneline kopyalayıp kaydettiğinizde entegrasyon tamamlanmıştır. 
-2. Seçim yapmadan önce özel ihtiyaçlarınızı \(Abonelik, tek tıkla ödeme, kart saklama, iptal ve iadeleri altyapı panelinden tetikleme..vb\) gibi özellikleri destek aldığınız firma ile kontrol etmelisiniz.
+1. İlk olarak altyapı sağlayıcınız ile iyzico ödeme yönteminin aktif olduğunu teyit ediniz.
+2. iyzico API ve Güvenlik anahtarını altyapınızın\(ideasoft, ticimax, tsoft, shopify..vb\) panelindeki ilgili bölüme kopyalayıp kaydettiğinizde **entegrasyon tamamlanmıştır.** 1 - 3 TL'lik gerçek bir kart ile ödeme yaparak kontrol etmenizi öneririz.
+3. Seçim yapmadan önce, özel ihtiyaçlarınızı \(abonelik, tek tıkla ödeme, kart saklama, iptal ve iadeleri altyapı panelinden tetikleme..vb\) **destek aldığınız firma** ile kontrol etmeniz gerekmektedir.
 {% endhint %}
 
-| Websitesi | Telefon | Mail | Anında Sanal Pos | Rehber | Video Anlatım |
+| **Websitesi** | **Telefon** | **Mail** | **Anında Sanal Pos** | **Rehber** | **Video Anlatım** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ideasoft.com.tr | 0216 326 04 77 | destek@ideasoft.com.tr | [var](https://www.ideasoft.com.tr/eticaret-cozum-merkezi/odeme-sistemleri/iyzico-aninda-sanal-pos/) | [var](https://www.ideasoft.com.tr/konu/odeme-ayarlari/iyzico-sanal-pos-kurulumu/) |  |
-| natro.com | 0212 612 44 55 | destek@natro.com | [var](https://www.natro.com/hosting/eticaret-hosting) |  |  |
-| ticimax.com | 0850 811 08 20 | info@ticimax.com | [var](https://www.ticimax.com/aninda-sanal-pos-ticimax-ta/) | [var](http://destekalani.com/Icerik/iyzico-kurulumu-157) |  |
-| tsoft.com.tr | 0212 612 44 55 | destek@tsoft.com.tr | var |  |  |
+| ideasoft.com.tr | 02163260477 | destek@ideasoft.com.tr | [var](https://www.ideasoft.com.tr/eticaret-cozum-merkezi/odeme-sistemleri/iyzico-aninda-sanal-pos/) | [var](https://www.ideasoft.com.tr/konu/odeme-ayarlari/iyzico-sanal-pos-kurulumu/) |  |
+| natro.com | 02126124455 | destek@natro.com | [var](https://www.natro.com/hosting/eticaret-hosting) |  |  |
+| ticimax.com | 08508110820 | info@ticimax.com | [var](https://www.ticimax.com/aninda-sanal-pos-ticimax-ta/) | [var](http://destekalani.com/Icerik/iyzico-kurulumu-157) |  |
+| tsoft.com.tr | 02126124455 | destek@tsoft.com.tr | var |  |  |
 | shopify.com | ​ | ​ | yok |  |  |
 | bygo.io | ​ | info@bygo.io | yok |  |  |
 | cloudseticaret.com | 0312 426 63 55 | bilgi@cloudseticaret.com | yok |  |  |
