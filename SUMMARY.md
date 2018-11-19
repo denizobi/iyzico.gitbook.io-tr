@@ -32,7 +32,7 @@
 * [Abonelik \(subscription\)](tarifler/abonelik.md)
 * [Tek tıkla ödeme \(one click\)](tarifler/tek-tikla-oedeme.md)
 * [BKM Express](tarifler/bkm-express.md)
-* [Alternatif ödeme methodları \(APM\)](tarifler/alternatif-oedeme-methodlari-apm.md)
+* [Alternatif ödeme methodları](tarifler/alternatif-oedeme-methodlari-apm.md)
 * [Sık Sorulan Sorular](tarifler/sss/README.md)
   * [Genel Sorular](tarifler/sss/genel-sorular/README.md)
     * [Kişisel Verilerin Korunması Kanunu](tarifler/sss/genel-sorular/kisisel-verilerin-korunmasi-kanunu.md)
