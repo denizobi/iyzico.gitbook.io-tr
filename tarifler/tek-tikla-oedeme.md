@@ -1,0 +1,2 @@
+# Tek Tıkla Ödeme
+
