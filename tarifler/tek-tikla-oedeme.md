@@ -1,2 +1,2 @@
-# Tek Tıkla Ödeme
+# Tek tıkla ödeme \(one click\)
 

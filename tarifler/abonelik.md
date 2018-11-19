@@ -1,2 +1,2 @@
-# Abonelik
+# Abonelik \(subscription\)
 
