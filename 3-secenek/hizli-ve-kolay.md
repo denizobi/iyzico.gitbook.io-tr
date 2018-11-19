@@ -15,9 +15,9 @@ description: >-
 
 | Websitesi | Telefon | Mail | Anında Sanal Pos | Rehber | Video Anlatım |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| ideasoft.com.tr | 0216 326 04 77 | destek@ideasoft.com.tr | var | [var](https://www.ideasoft.com.tr/konu/odeme-ayarlari/iyzico-sanal-pos-kurulumu/) |  |
-| natro.com | 0212 612 44 55 | destek@natro.com | var |  |  |
-| ticimax.com | 0850 811 08 20 | info@ticimax.com | var | [var](http://destekalani.com/Icerik/iyzico-kurulumu-157) |  |
+| ideasoft.com.tr | 0216 326 04 77 | destek@ideasoft.com.tr | [var](https://www.ideasoft.com.tr/eticaret-cozum-merkezi/odeme-sistemleri/iyzico-aninda-sanal-pos/) | [var](https://www.ideasoft.com.tr/konu/odeme-ayarlari/iyzico-sanal-pos-kurulumu/) |  |
+| natro.com | 0212 612 44 55 | destek@natro.com | [var](https://www.natro.com/hosting/eticaret-hosting) |  |  |
+| ticimax.com | 0850 811 08 20 | info@ticimax.com | [var](https://www.ticimax.com/aninda-sanal-pos-ticimax-ta/) | [var](http://destekalani.com/Icerik/iyzico-kurulumu-157) |  |
 | tsoft.com.tr | 0212 612 44 55 | destek@tsoft.com.tr | var |  |  |
 | shopify.com | ​ | ​ | yok |  |  |
 | bygo.io | ​ | info@bygo.io | yok |  |  |
