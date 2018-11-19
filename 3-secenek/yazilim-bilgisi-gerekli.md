@@ -6,6 +6,12 @@ description: >-
 
 # Yazılım ekibi gerekli
 
+{% hint style="danger" %}
+**ÖNEMLİ UYARI**
+
+1. Sisteminizin **TLS 1.2**, cURL, openssl gerekliliklerini karşılayabildiğinden emin olunuz.
+{% endhint %}
+
 ## Genel Bilgi
 
 iyzico'yu sitenize entegre etmenin en hızlı yolu [iyzico ödeme formunu ](../tarifler/odeme-formu.md)kullanmaktır. 
