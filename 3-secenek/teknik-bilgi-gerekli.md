@@ -9,8 +9,8 @@ description: >-
 {% hint style="danger" %}
 **ÖNEMLİ UYARI**
 
-1. Çalıştığınız hosting firmasının TLS 1.2 ile sorgu yapabildiğinden emin olunuz.
-2. iyzico'nun modülleri yalın \(hiç eklenti kurulmamış\) kurulumlarda çalışır.
+1. Çalıştığınız hosting firmasının TLS 1.2, cURL, openssl ve PHP gerekliliklerini karşılayabildiğinden emin olunuz.
+2. iyzico'nun modülleri **yalın** \(hiç eklenti kurulmamış\) kurulumlarda ve **varsayılan** temalarda çalışmayı **garanti** eder. Farklı temalar ve eklentilerde de modüllerimiz çalışmaktadır ancak bazı durumlarda sizin tarafınızdan ek geliştirme yapılması gerekebilir .
 {% endhint %}
 
 | Altyapı | Versiyon | Video Anlatım | Demo |
