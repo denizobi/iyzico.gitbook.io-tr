@@ -1,5 +1,5 @@
 ---
-description: iyzibazaar.
+description: iyzico'nun pazaryeri çözümünü hızlıca entegre edebilirsiniz
 ---
 
 # Pazaryeri

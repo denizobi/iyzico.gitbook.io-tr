@@ -61,4 +61,5 @@
     * [Parametre Sözlüğü](tarifler/sss/teknik-sorular/parametre-soezluegue.md)
     * [github.com/iyzico](tarifler/sss/teknik-sorular/github.com-iyzico.md)
     * [Sandbox/Test Ortamı](tarifler/sss/teknik-sorular/sandbox-test-ortami.md)
+* [Abonelik](tarifler/abonelik.md)
 

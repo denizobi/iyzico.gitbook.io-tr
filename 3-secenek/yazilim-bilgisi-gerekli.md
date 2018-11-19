@@ -8,11 +8,7 @@ description: >-
 
 ## Genel Bilgi
 
-iyzico'yu sitenize entegre etmenin en hızlı yolu ödeme formunu kullanmaktır. iyzico'nun hazırlamış olduğu kütüphaneler ile 2 adet basit sorguyu projelerinizde kullanabilirsiniz.
-
-{% hint style="warning" %}
-Bu entegrasyonu yapabilmeniz için iyzico hesabınıza giriş yaptıktan sonra [Firma Ayarları](https://merchant.iyzipay.com/merchant-settings) menüsünde **API** ve **Güvenlik** anahtarlarını görebiliyor olmanız gerekmektedir. Eğer anahtarları göremiyor iseniz başvurunuz konusunda destek ekibi ile iletişime geçebilirsiniz.
-{% endhint %}
+iyzico'yu sitenize entegre etmenin en hızlı yolu [iyzico ödeme formunu ](../tarifler/odeme-formu.md)kullanmaktır. 
 
 ## Nasıl Çalışır ?
 
