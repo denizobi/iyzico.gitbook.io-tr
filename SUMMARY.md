@@ -69,3 +69,7 @@
     * [github.com/iyzico](tarifler/sss/teknik-sorular/github.com-iyzico.md)
     * [Sandbox/Test Ortamı](tarifler/sss/teknik-sorular/sandbox-test-ortami.md)
 
+## Sık Sorulan Sorular
+
+* [Untitled1](sik-sorulan-sorular/untitled1.md)
+
