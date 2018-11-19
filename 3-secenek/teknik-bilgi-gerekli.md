@@ -9,7 +9,7 @@ description: >-
 {% hint style="danger" %}
 **ÖNEMLİ UYARI**
 
-1. Çalıştığınız hosting firmasının TLS 1.2, cURL, openssl ve PHP gerekliliklerini karşılayabildiğinden emin olunuz.
+1. Çalıştığınız hosting firmasının **TLS 1.2**, cURL, openssl ve PHP gerekliliklerini karşılayabildiğinden emin olunuz.
 2. iyzico'nun modülleri **yalın** \(hiç eklenti kurulmamış\) kurulumlarda ve **varsayılan** temalarda çalışmayı **garanti** eder. Farklı temalar ve eklentilerde de modüllerimiz çalışmaktadır ancak bazı durumlarda sizin tarafınızdan ek geliştirme yapılması gerekebilir.
 3. iyzico her zaman **en güncel versiyonların** kullanılmasını \(güvenlik, performans, uyumluluk..vb\) tavsiye eder. Geçmiş versiyon kullanan veya kullanmayı planlayan partnerlerimiz için eski modüllerimiz mevcuttur.
 {% endhint %}
