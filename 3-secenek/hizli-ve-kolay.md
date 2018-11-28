@@ -31,7 +31,7 @@ description: >-
 | faprika.com | 0850 333 15 23 | info@faprika.com | yok |  |  |
 | ganipara.com | 0850 885 00 98 | yardim@ganipara.com | yok |  |  |
 | hipotenus.com.tr | 0850 441 40 84 | bilgi@hipotenus.com.tr | yok |  |  |
-| piernet.com.tr | 0850 885 2073 | destek@piernet.com.tr |  |  |  |
+| piernet.com.tr | 0850 885 2073 | destek@piernet.com.tr | yok |  |  |
 | kahvedigital.com | 0212 570 81 29 | hello@kahvedigital.com | yok |  |  |
 | kmk.net.tr | 0850 333 05 65 | bilgi@kmk.net.tr | yok |  |  |
 | markaclick.com.tr | 0216 414 18 74 | bilgi@markaclick.com.tr | yok |  |  |
