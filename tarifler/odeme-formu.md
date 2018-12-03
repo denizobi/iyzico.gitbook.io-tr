@@ -344,5 +344,7 @@ Bu sorguda kullanacağınız **token** değerini ödeme formunu oluşturduğunuz
 
 Topluluklardan destek alın:
 
+Videolardan destek alın:
+
 ### 
 
