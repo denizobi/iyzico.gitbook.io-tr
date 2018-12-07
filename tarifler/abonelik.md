@@ -1,6 +1,6 @@
 # Abonelik \(subscription\)
 
-## iyzico ödeme formunda saklanan kartı alma
+Öncelikle iyzico'da kart saklama özelliğinizin açık olması gerekir. Bunu satın
 
 ## kendi ödeme formunuzda registercard\(1\) set edip gönderme
 
