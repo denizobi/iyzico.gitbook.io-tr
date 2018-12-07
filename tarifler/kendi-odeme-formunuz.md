@@ -90,7 +90,7 @@ Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yap
 Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz. 
 
 {% code-tabs %}
-{% code-tabs-item title="Request" %}
+{% code-tabs-item title="Kart Saklamalı İstek" %}
 ```javascript
 {
   "locale": "tr",
@@ -147,7 +147,7 @@ Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz.
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title="Response" %}
+{% code-tabs-item title="Kart Saklamalı Yanıt" %}
 ```javascript
 {
   "status": "success",
@@ -209,6 +209,24 @@ Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz.
   "phase": "AUTH",
   "hostReference": "mock00001iyzihostrfn"
 }
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Pazaryeri İstek" %}
+```
+
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Pazaryeri Yanıt" %}
+```
+
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Saklı kartlı İstek" %}
+```
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
