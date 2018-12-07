@@ -90,6 +90,18 @@ Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yap
 Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz. 
 
 {% code-tabs %}
+{% code-tabs-item title="Normal İstek" %}
+```
+
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Normal Yanıt" %}
+```
+
+```
+{% endcode-tabs-item %}
+
 {% code-tabs-item title="Kart Saklamalı İstek" %}
 ```javascript
 {
