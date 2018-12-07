@@ -1,6 +1,6 @@
 # Kendi ödeme formunuz
 
-## Başlarken
+##  Başlarken
 
 Kendi formunu kullanan üye işyeri form üzerindeki kontrolleri ve kuralları uygulaması gerekir. 
 
@@ -16,7 +16,7 @@ Bu entegrasyon rehberinde sisteminiz iyzico ile server-to-server şeklinde konu�
 Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yapılmak istenen kart ile ilgili bilgi edinebilir ve ek olarak taksit \(iş modeliniz uygun ise\) oranlarını yanıt olarak alabilirsiniz. 
 
 {% code-tabs %}
-{% code-tabs-item title="Request" %}
+{% code-tabs-item title="İstek" %}
 ```javascript
 {
   "locale": "tr",
@@ -27,7 +27,7 @@ Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yap
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title="Response" %}
+{% code-tabs-item title="Yanıt" %}
 ```javascript
 {
   "status": "success",
@@ -88,160 +88,6 @@ Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yap
 **Ödeme**
 
 Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz. 
-
-{% code-tabs %}
-{% code-tabs-item title="Normal İstek" %}
-```
-
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Normal Yanıt" %}
-```
-
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Kart Saklamalı İstek" %}
-```javascript
-{
-  "locale": "tr",
-  "conversationId": "siparişnumarası_1",
-  "price": "1.0",
-  "paidPrice": "10.0",
-  "installment": 1,
-  "paymentChannel": "WEB",
-  "basketId": "siparişnumarası_1",
-  "paymentGroup": "LISTING",
-  "paymentCard": {
-    "cardHolderName": "John Doe",
-    "cardNumber": "5528790000000008",
-    "expireYear": "2020",
-    "expireMonth": "10",
-    "cvc": "123",
-    "registerCard": 1
-  },
-  "buyer": {
-    "id": "kullanıcı_id",
-    "name": "John",
-    "surname": "Doe",
-    "identityNumber": "74300864791",
-    "email": "email@email.com",
-    "gsmNumber": "+905350000000",
-    "registrationAddress": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
-    "city": "Istanbul",
-    "country": "Turkey",
-    "ip": "85.34.78.112"
-  },
-  "shippingAddress": {
-    "address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
-    "contactName": "Jane Doe",
-    "city": "Istanbul",
-    "country": "Turkey"
-  },
-  "billingAddress": {
-    "address": "Nidakule Göztepe, Merdivenköy Mah. Bora Sok. No:1",
-    "contactName": "Jane Doe",
-    "city": "Istanbul",
-    "country": "Turkey"
-  },
-  "basketItems": [
-    {
-      "id": "siparişnumarası_1",
-      "price": "1.0",
-      "name": "Binocular",
-      "category1": "Collectibles",
-      "itemType": "PHYSICAL"
-    }
-  ],
-  "currency": "TRY"
-}
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Kart Saklamalı Yanıt" %}
-```javascript
-{
-  "status": "success",
-  "locale": "tr",
-  "systemTime": 1544186742992,
-  "conversationId": "siparişnumarası_1",
-  "price": 1,
-  "paidPrice": 10,
-  "installment": 1,
-  "paymentId": "11137197",
-  "fraudStatus": 0,
-  "merchantCommissionRate": 900,
-  "merchantCommissionRateAmount": 9,
-  "iyziCommissionRateAmount": 0.2625,
-  "iyziCommissionFee": 0.25,
-  "cardType": "CREDIT_CARD",
-  "cardAssociation": "MASTER_CARD",
-  "cardFamily": "Paraf",
-  "cardToken": "tesacmahlL3j/8GhmmZtXpIwr2k=",
-  "cardUserKey": "RP6mVtXNh8ahXduXBnHoCvkjAC8=",
-  "binNumber": "552879",
-  "lastFourDigits": "0008",
-  "basketId": "siparişnumarası_1",
-  "currency": "TRY",
-  "itemTransactions": [
-    {
-      "itemId": "siparişnumarası_1",
-      "paymentTransactionId": "11771642",
-      "transactionStatus": 2,
-      "price": 1,
-      "paidPrice": 10,
-      "merchantCommissionRate": 900,
-      "merchantCommissionRateAmount": 9,
-      "iyziCommissionRateAmount": 0.2625,
-      "iyziCommissionFee": 0.25,
-      "blockageRate": 0,
-      "blockageRateAmountMerchant": 0,
-      "blockageRateAmountSubMerchant": 0,
-      "blockageResolvedDate": "2018-12-08 00:00:00",
-      "subMerchantPrice": 0,
-      "subMerchantPayoutRate": 0,
-      "subMerchantPayoutAmount": 0,
-      "merchantPayoutAmount": 9.4875,
-      "convertedPayout": {
-        "paidPrice": 10,
-        "iyziCommissionRateAmount": 0.2625,
-        "iyziCommissionFee": 0.25,
-        "blockageRateAmountMerchant": 0,
-        "blockageRateAmountSubMerchant": 0,
-        "subMerchantPayoutAmount": 0,
-        "merchantPayoutAmount": 9.4875,
-        "iyziConversionRate": 0,
-        "iyziConversionRateAmount": 0,
-        "currency": "TRY"
-      }
-    }
-  ],
-  "authCode": "826790",
-  "phase": "AUTH",
-  "hostReference": "mock00001iyzihostrfn"
-}
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Pazaryeri İstek" %}
-```
-
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Pazaryeri Yanıt" %}
-```
-
-```
-{% endcode-tabs-item %}
-
-{% code-tabs-item title="Saklı kartlı İstek" %}
-```
-
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
 
 **3D ile Ödeme**
 
