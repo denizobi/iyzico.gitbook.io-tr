@@ -1,17 +1,89 @@
 # Kendi ödeme formunuz
 
-API entegrasyonunda üye işyeri kendi ödeme formunu kullanır. Bu form üzerindeki kontrolleri ve kuralları uygulaması gerekir.
+## Başlarken
 
-* Kart numarası\(PAN\) luhn algoritmasına tabi tutulmalıdır.
-* Kartın hamilinin adı ve soyadı alınmalıdır.
-* Son kullanma tarihi geçmiş kartlar ile API'ye sorgu yapılmamalıdır.
-* AMEX kartları ile işlem alabilir şekilde tasarlanmalıdır.
+Kendi formunu kullanan üye işyeri form üzerindeki kontrolleri ve kuralları uygulaması gerekir. 
 
-iyzico arka planda çalıştığından üye işyerinin ihtiyaçlarına göre istenilen servisler entegre edilebilir.
+* Kart numarası\(PAN\) [luhn](https://www.google.com.tr/search?ei=VmAKXPvIHIeMmgXJv6yoDQ&q=luhn+algorithm&oq=luhn+algorithm&gs_l=psy-ab.3..0j0i67j0l2j0i22i30l6.1196.2533..2822...0.0..0.133.1042.0j9......0....1..gws-wiz.......0i71.R2J5qTjekMY) algoritmasına tabi tutulmalıdır.
+* Kartın hamilinin adı ve soyadı alınmalıdır. \(şüpheli aktiviteleri takip etmek için\)
+* Son kullanma tarihi geçmiş kartlar ile sorgu yapma engellenmelidir.
+* AMEX kartları ile işlem alabilir şekilde tasarlanmalıdır. \([güvenlik kodu](https://www.google.com.tr/search?ei=GmEKXOP6McqQmgWU1KS4Aw&q=cvv+cvc+cid&oq=cvv+cvc+cid&gs_l=psy-ab.3..0i19j0i22i30i19l9.7428.9172..9304...1.0..0.258.740.0j4j1......0....1..gws-wiz.......0j0i22i30j0i22i10i30j0i22i10i30i19j33i160.t2LBYfTt3rU)\)
+
+Bu entegrasyon rehberinde sisteminiz iyzico ile server-to-server şeklinde konuşur. Yapılan tüm isteklere iyzico anlık olarak yanıt verir. **6** ana servisten oluşur. Bu adımları takip ederek entegrasyonunuzu tamamlayabilirsiniz.
 
 **Taksit ve Bin Sorgulama**
 
-Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yapılmak istenen kart ile ilgili bilgi edinebilir ve ek olarak taksit oranlarını yanıt olarak alabilirsiniz. Bu servis ile ilgili detaylı bilgiyi [Taksit ve Bin Sorgulama](https://dev.iyzipay.com/tr/api/taksit-sorgulama) sayfamızdan edinebilirsiniz.
+Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yapılmak istenen kart ile ilgili bilgi edinebilir ve ek olarak taksit oranlarını yanıt olarak alabilirsiniz. 
+
+{% code-tabs %}
+{% code-tabs-item title="Request" %}
+```javascript
+{
+  "locale": "tr",
+  "conversationId": "123456789",
+  "binNumber": "492095",
+  "price": "100.0"
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Response" %}
+```javascript
+{
+  "status": "success",
+  "locale": "tr",
+  "systemTime": 1544184942588,
+  "conversationId": "123456789",
+  "installmentDetails": [
+    {
+      "binNumber": "492095",
+      "price": 100,
+      "cardType": "CREDIT_CARD",
+      "cardAssociation": "VISA",
+      "cardFamilyName": "Paraf",
+      "force3ds": 0,
+      "bankCode": 12,
+      "bankName": "Halk Bankası",
+      "forceCvc": 0,
+      "commercial": 0,
+      "installmentPrices": [
+        {
+          "installmentPrice": 100,
+          "totalPrice": 100,
+          "installmentNumber": 1
+        },
+        {
+          "installmentPrice": 53.03,
+          "totalPrice": 106.06,
+          "installmentNumber": 2
+        },
+        {
+          "installmentPrice": 35.87,
+          "totalPrice": 107.6,
+          "installmentNumber": 3
+        },
+        {
+          "installmentPrice": 18.58,
+          "totalPrice": 111.46,
+          "installmentNumber": 6
+        },
+        {
+          "installmentPrice": 13,
+          "totalPrice": 117.01,
+          "installmentNumber": 9
+        },
+        {
+          "installmentPrice": 10.25,
+          "totalPrice": 122.99,
+          "installmentNumber": 12
+        }
+      ]
+    }
+  ]
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 **Ödeme**
 
