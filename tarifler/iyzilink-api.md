@@ -8,6 +8,10 @@ description: iyzilink
 
 ## Ürün ekle
 
+Sadece PHP kütüphanemizde bulunmaktadır.
+
+[https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_add\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_add_product_sample.php)
+
 {% code-tabs %}
 {% code-tabs-item title="İstek" %}
 ```javascript
@@ -29,14 +33,14 @@ description: iyzilink
 {% code-tabs-item title="Yanıt" %}
 ```javascript
 {
-  "status": "success",
-  "locale": "tr",
-  "systemTime": 1545225967963,
-  "conversationId": "123456789",
+  "status": "success", // sorgunun yanıtı
+  "locale": "tr", // gönderilen dil parametresi
+  "systemTime": 1545225967963, // unix zaman damgası
+  "conversationId": "123456789", // sipariş numarası
   "data": {
-    "token": "BLA",
-    "url": "https://sandbox.iyzi.link/BLA",
-    "imageUrl": "https://sandbox-img.iyzi.link/BL/A.jpg"
+    "token": "BLA", //iyzico tarafından üretilen değer
+    "url": "https://sandbox.iyzi.link/BLA", // ürünün satın alma linki
+    "imageUrl": "https://sandbox-img.iyzi.link/BL/A.jpg" // ürün resmi
   }
 }
 ```
@@ -45,13 +49,17 @@ description: iyzilink
 
 ## Ürün Sil
 
+Sadece PHP kütüphanemizde bulunmaktadır.
+
+[https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_delete\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_delete_product_sample.php)
+
 {% code-tabs %}
 {% code-tabs-item title="İstek" %}
 ```javascript
 {
-  "locale": "tr",
-  "conversationId": "123456789",
-  "token": "BLA"
+  "locale": "tr", // tr ve en değerleri desteklenmektedir.
+  "conversationId": "123456789", // sipariş numarası gibi set edebilirsiniz.
+  "token": "BLA" // iyzico'nun ürün için döndüğü değer
 }
 ```
 {% endcode-tabs-item %}
@@ -59,10 +67,10 @@ description: iyzilink
 {% code-tabs-item title="Yanıt" %}
 ```javascript
 {
-  "status": "success",
-  "locale": "tr",
-  "systemTime": 1545226229597,
-  "conversationId": "123456789"
+  "status": "success", // sorgunun yanıtı
+  "locale": "tr", // gönderilen dil parametresi
+  "systemTime": 1545226229597, // unix zaman damgası
+  "conversationId": "123456789" // sipariş numarası
 }
 
 ```
