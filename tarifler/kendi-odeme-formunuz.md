@@ -1,4 +1,4 @@
-# Kendi ödeme formunuz \(API\)
+# Kendi ödeme formunuz
 
 ##  Başlarken
 

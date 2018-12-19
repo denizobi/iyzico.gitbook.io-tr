@@ -24,3 +24,9 @@ Kart saklama özelliğini hazır altyapılarda \(woocommerce , prestashop , open
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/create\_payment\_with\_registered\_card.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/create_payment_with_registered_card.php)
 
+## kendi ödeme formunuzda registercard\(1\) set edip gönderme
+
+## cardUserKey ve cardToken ile ödeme alma
+
+## iyzico ödeme formunu cardUserKey ile tetikleme
+

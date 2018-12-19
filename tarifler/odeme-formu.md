@@ -4,7 +4,7 @@ description: >-
   edebilirsiniz.
 ---
 
-# ödeme formu \(checkout\)
+# iyzico ödeme formu
 
 ## Başlangıç
 
