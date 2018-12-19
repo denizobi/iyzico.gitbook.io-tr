@@ -106,7 +106,7 @@ Sadece PHP kütüphanemizde bulunmaktadır.
     "conversationId": "123456789", // sipariş numarası 
     "description": "Sample Integration", // ürünün tanımı
     "price": 1, // ürünün fiyatı
-    "currencyId": 1, // ürünün para birimi
+    "currencyId": 1, // ürünün para birimi idsi
     "currencyCode": "TRY", // ürünün para birimi
     "token": "BLE", //iyzico tarafından üretilen değer
     "productType": "IYZILINK", // iyzico tarafından kullanılan tip
@@ -135,10 +135,10 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% code-tabs-item title="İstek" %}
 ```javascript
 {
-  "locale": "tr",
-  "conversationId": "123456789",
-  "page": 1,
-  "count": 2
+  "locale": "tr", // tr ve en değerleri desteklenmektedir.
+  "conversationId": "123456789", // sipariş numarası gibi set edebilirsiniz.
+  "page": 1, // sayfa numarası
+  "count": 2 // sayfada görüntülenen ürün sayısı
 }
 ```
 {% endcode-tabs-item %}
@@ -146,52 +146,52 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% code-tabs-item title="Yanıt" %}
 ```javascript
 {
-  "status": "success",
-  "locale": "tr",
-  "systemTime": 1545226669152,
-  "conversationId": "123456789",
+  "status": "success", // sorgunun yanıtı
+  "locale": "tr", // gönderilen dil parametresi
+  "systemTime": 1545226669152, // unix zaman damgası
+  "conversationId": "123456789", // sipariş numarası
   "data": {
-    "listingReviewed": true,
-    "totalCount": 20,
-    "currentPage": 1,
-    "pageCount": 10,
+    "listingReviewed": true, // listeleme durumu
+    "totalCount": 20, // gösterilen toplam sayfa
+    "currentPage": 1, // bulunduğunuz sayfa
+    "pageCount": 10, // toplam sayfa
     "items": [
       {
-        "name": "Sample Integration",
-        "conversationId": "123456789",
-        "description": "Sample Integration",
-        "price": 1,
-        "currencyId": 1,
-        "currencyCode": "TRY",
-        "token": "BLE",
-        "productType": "IYZILINK",
-        "productStatus": "ACTIVE",
-        "merchantId": 50343,
-        "url": "https://sandbox.iyzi.link/BLE",
-        "imageUrl": "https://sandbox-img.iyzi.link/BL/E.jpg",
-        "addressIgnorable": false,
-        "soldCount": 0,
-        "soldLimit": 1,
-        "remainingSoldLimit": 1,
-        "installmentRequested": false
+        "name": "Sample Integration", // ürünün ismi
+        "conversationId": "123456789", // sipariş numarası 
+        "description": "Sample Integration", // ürünün tanımı
+        "price": 1, // ürünün fiyatı
+        "currencyId": 1, // ürünün para birim idsi
+        "currencyCode": "TRY", // ürünün para birimi
+        "token": "BLE", //iyzico tarafından üretilen değer
+        "productType": "IYZILINK", // iyzico tarafından kullanılan tip
+        "productStatus": "ACTIVE", // ürünün durumu
+        "merchantId": 50343, // iyzico'daki üye işyeri numarası
+        "url": "https://sandbox.iyzi.link/BLE", // ürünün satın alma linki
+        "imageUrl": "https://sandbox-img.iyzi.link/BL/E.jpg", // ürün resmi
+        "addressIgnorable": false, // ürün adres durumu
+        "soldCount": 0, // satılan ürün sayısı
+        "soldLimit": 1, // toplam stok sayısı
+        "remainingSoldLimit": 1, // kalan stok sayısı
+        "installmentRequested": false // taksit yapılabilir durumu
       },
       {
-        "name": "product-name",
-        "description": "product-description",
-        "price": 5,
-        "currencyId": 1,
-        "currencyCode": "TRY",
-        "token": "BK4",
-        "productType": "IYZILINK",
-        "productStatus": "ACTIVE",
-        "merchantId": 50343,
-        "url": "https://sandbox.iyzi.link/BK4",
-        "imageUrl": "https://sandbox-img.iyzi.link/BK/4.jpg",
-        "addressIgnorable": true,
-        "soldCount": 1,
-        "soldLimit": 0,
-        "remainingSoldLimit": -1,
-        "installmentRequested": false
+        "name": "product-name", // ürünün ismi
+        "description": "product-description", // ürünün tanımı
+        "price": 5, // ürünün fiyatı
+        "currencyId": 1, // ürünün para birim idsi
+        "currencyCode": "TRY", // ürünün para birimi
+        "token": "BK4", //iyzico tarafından üretilen değer
+        "productType": "IYZILINK", // iyzico tarafından kullanılan tip
+        "productStatus": "ACTIVE", // ürünün durumu
+        "merchantId": 50343, // iyzico'daki üye işyeri numarası
+        "url": "https://sandbox.iyzi.link/BK4", // ürünün satın alma linki
+        "imageUrl": "https://sandbox-img.iyzi.link/BK/4.jpg", // ürün resmi
+        "addressIgnorable": true, // ürün adres durumu
+        "soldCount": 1, // satılan ürün sayısı
+        "soldLimit": 0, // toplam stok sayısı
+        "remainingSoldLimit": -1, // kalan stok sayısı
+        "installmentRequested": false // taksit yapılabilir durumu
       }
     ]
   }
