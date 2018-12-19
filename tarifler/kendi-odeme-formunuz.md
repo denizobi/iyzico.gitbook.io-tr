@@ -13,7 +13,7 @@ Bu entegrasyon rehberinde sisteminiz iyzico ile server-to-server şeklinde konu�
 
 **Taksit ve Bin Sorgulama**
 
-Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yapılmak istenen kart ile ilgili bilgi edinebilir ve ek olarak taksit \(iş modeliniz uygun ise\) oranlarını yanıt olarak alabilirsiniz. 
+Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yapılmak istenen kart ile ilgili bilgi edinebilir ve ek olarak taksit \(iş modeliniz uygun ise\) oranlarını yanıt olarak alabilirsiniz. Bu serviste dönen oranlar iyzico üye iş yeri panelindeki oranlardır.
 
 {% code-tabs %}
 {% code-tabs-item title="İstek" %}
