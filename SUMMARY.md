@@ -10,7 +10,7 @@
 
 ## rehberler
 
-* [iyzico ödeme formu](tarifler/odeme-formu.md)
+* [ödeme formu \(checkout\)](tarifler/odeme-formu.md)
 * [Kendi ödeme formunuz](tarifler/kendi-odeme-formunuz.md)
 * [Pazaryeri \(marketplace\)](tarifler/untitled.md)
 * [Abonelik \(subscription\)](tarifler/abonelik.md)
