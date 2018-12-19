@@ -89,6 +89,131 @@ Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yap
 
 Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz. 
 
+{% code-tabs %}
+{% code-tabs-item title="İstek" %}
+```javascript
+{
+  "locale": "tr",
+  "conversationId": "orderiddegeri1",
+  "price": "100.0",
+  "paidPrice": "110.5",
+  "installment": 3,
+  "paymentChannel": "WEB",
+  "basketId": "orderiddegeri1",
+  "paymentGroup": "LISTING",
+  "paymentCard": {
+    "cardHolderName": "Emre Faik",
+    "cardNumber": "5528790000000008",
+    "expireYear": "2020",
+    "expireMonth": "10",
+    "cvc": "123",
+    "registerCard": 1
+  },
+  "buyer": {
+    "id": "kullanıcıiddegeri",
+    "name": "Emre",
+    "surname": "Faik",
+    "identityNumber": "74300864791",
+    "email": "email@email.com",
+    "gsmNumber": "+905350000000",
+    "registrationAddress": "Burhaniye Mahallesi Atilla Sokak No:7 Üsküdar",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "ip": "85.34.78.112"
+  },
+  "shippingAddress": {
+    "address": "Burhaniye Mahallesi Atilla Sokak No:7 Üsküdar",
+    "contactName": "Emre Faik",
+    "city": "Istanbul",
+    "country": "Turkey"
+  },
+  "billingAddress": {
+    "address": "Burhaniye Mahallesi Atilla Sokak No:7 Üsküdar",
+    "contactName": "Emre Faik",
+    "city": "Istanbul",
+    "country": "Turkey"
+  },
+  "basketItems": [
+    {
+      "id": "orderiddegeri1",
+      "price": "100.0",
+      "name": "ürünismi",
+      "category1": "ürünkategorisi",
+      "itemType": "PHYSICAL"
+    }
+  ],
+  "currency": "TRY"
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Yanıt" %}
+```javascript
+{
+  "status": "success",
+  "locale": "tr",
+  "systemTime": 1545220956037,
+  "conversationId": "orderiddegeri1",
+  "price": 100,
+  "paidPrice": 110.5,
+  "installment": 3,
+  "paymentId": "11154295",
+  "fraudStatus": 0,
+  "merchantCommissionRate": 10.5,
+  "merchantCommissionRateAmount": 10.5,
+  "iyziCommissionRateAmount": 5.33715,
+  "iyziCommissionFee": 0.25,
+  "cardType": "CREDIT_CARD",
+  "cardAssociation": "MASTER_CARD",
+  "cardFamily": "Paraf",
+  "cardToken": "so4ERPJ2ouMuPSKEFiUNqQRROnQ=",
+  "cardUserKey": "hDsAoIK28+DG0TlmErBiHp1+klg=",
+  "binNumber": "552879",
+  "lastFourDigits": "0008",
+  "basketId": "orderiddegeri1",
+  "currency": "TRY",
+  "itemTransactions": [
+    {
+      "itemId": "orderiddegeri1",
+      "paymentTransactionId": "11791668",
+      "transactionStatus": 2,
+      "price": 100,
+      "paidPrice": 110.5,
+      "merchantCommissionRate": 10.5,
+      "merchantCommissionRateAmount": 10.5,
+      "iyziCommissionRateAmount": 5.33715,
+      "iyziCommissionFee": 0.25,
+      "blockageRate": 0,
+      "blockageRateAmountMerchant": 0,
+      "blockageRateAmountSubMerchant": 0,
+      "blockageResolvedDate": "2018-12-20 00:00:00",
+      "subMerchantPrice": 0,
+      "subMerchantPayoutRate": 0,
+      "subMerchantPayoutAmount": 0,
+      "merchantPayoutAmount": 104.91285,
+      "convertedPayout": {
+        "paidPrice": 110.5,
+        "iyziCommissionRateAmount": 5.33715,
+        "iyziCommissionFee": 0.25,
+        "blockageRateAmountMerchant": 0,
+        "blockageRateAmountSubMerchant": 0,
+        "subMerchantPayoutAmount": 0,
+        "merchantPayoutAmount": 104.91285,
+        "iyziConversionRate": 0,
+        "iyziConversionRateAmount": 0,
+        "currency": "TRY"
+      }
+    }
+  ],
+  "authCode": "914653",
+  "phase": "AUTH",
+  "hostReference": "mock00001iyzihostrfn"
+}
+
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
 **3D ile Ödeme**
 
 Tek çekim, taksitli ve tek tıkla ödeme işlemleri için uygundur. İşleme gönderilen kartın bakiyesinden ilgili miktarı çekme işlemi yapar. Bu servis ile ilgili detaylı bilgiyi [3D ile Ödeme](https://dev.iyzipay.com/tr/api/3d-ile-odeme) sayfamızdan edinebilirsiniz.
