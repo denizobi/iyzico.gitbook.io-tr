@@ -210,17 +210,17 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% code-tabs-item title="İstek" %}
 ```javascript
 {
-  "locale": "tr",
-  "conversationId": "123456789",
-  "price": "1.0",
-  "name": "Sample Integration",
-  "description": "Sample Integration",
-  "encodedImageFile": "/9j/4AAQSkZJRgABAQEAYABgAAD//",
-  "currencyCode": "TRY",
-  "addressIgnorable": false,
-  "soldLimit": 1,
-  "installmentRequested": false,
-  "token": "BKA"
+  "locale": "tr", // tr ve en değerleri desteklenmektedir.
+  "conversationId": "123456789", // sipariş numarası gibi set edebilirsiniz.
+  "price": "1.0", // ürünün fiyatı
+  "name": "Sample Integration",  // ürünün ismi
+  "description": "Sample Integration",  // ürünün tanımı
+  "encodedImageFile": "/9j/4AAQSkZJRgABAQEAYABgAAD//", // ürünün fotoğrafı
+  "currencyCode": "TRY", // para birimi
+  "addressIgnorable": false, // satın alma esnasında adres bilgisi istensin mi ?
+  "soldLimit": 1, // stok miktarı
+  "installmentRequested": false, // taksitli satışa uygun ürün bilgisi
+  "token": "BKA" //iyzico tarafından üretilen değer
 }
 ```
 {% endcode-tabs-item %}
@@ -228,14 +228,14 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% code-tabs-item title="Yanıt" %}
 ```javascript
 {
-  "status": "success",
-  "locale": "tr",
-  "systemTime": 1545226810662,
-  "conversationId": "123456789",
+  "status": "success", // sorgunun yanıtı
+  "locale": "tr",  // gönderilen dil parametresi
+  "systemTime": 1545226810662, // unix zaman damgası
+  "conversationId": "123456789", // sipariş numarası
   "data": {
-    "token": "BK4",
-    "url": "https://sandbox.iyzi.link/BK4",
-    "imageUrl": "https://sandbox-img.iyzi.link/BK/4+V1.jpg"
+    "token": "BK4", //iyzico tarafından üretilen değer
+    "url": "https://sandbox.iyzi.link/BK4", // ürünün satın alma linki
+    "imageUrl": "https://sandbox-img.iyzi.link/BK/4+V1.jpg" // ürün resmi
   }
 }
 ```
