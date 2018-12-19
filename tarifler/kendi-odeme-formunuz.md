@@ -93,7 +93,7 @@ Bu servisi kullanarak bir karttan para çekimi sağlayabilirsiniz.
 {% code-tabs-item title="İstek" %}
 ```javascript
 {
-  "locale": "tr",
+  "locale": "tr", // sadece tr ve en değerini alabilmektedir
   "conversationId": "orderiddegeri1",
   "price": "100.0",
   "paidPrice": "110.5",
