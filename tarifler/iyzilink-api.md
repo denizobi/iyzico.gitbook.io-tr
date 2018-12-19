@@ -79,13 +79,17 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 
 ## Ürün Getir
 
+Sadece PHP kütüphanemizde bulunmaktadır.
+
+[https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_retrieve\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_retrieve_product_sample.php)
+
 {% code-tabs %}
 {% code-tabs-item title="İstek" %}
 ```javascript
 {
-  "locale": "tr",
-  "conversationId": "123456789",
-  "token": "BLA"
+  "locale": "tr", // tr ve en değerleri desteklenmektedir.
+  "conversationId": "123456789",  // sipariş numarası gibi set edebilirsiniz.
+  "token": "BLA" // iyzico'nun ürün için döndüğü değer
 }
 ```
 {% endcode-tabs-item %}
@@ -93,28 +97,28 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% code-tabs-item title="Yanıt" %}
 ```javascript
 {
-  "status": "success",
-  "locale": "tr",
-  "systemTime": 1545226460890,
-  "conversationId": "123456789",
+  "status": "success", // sorgunun yanıtı
+  "locale": "tr", // gönderilen dil parametresi
+  "systemTime": 1545226460890, // unix zaman damgası
+  "conversationId": "123456789", // sipariş numarası
   "data": {
-    "name": "Sample Integration",
-    "conversationId": "123456789",
-    "description": "Sample Integration",
-    "price": 1,
-    "currencyId": 1,
-    "currencyCode": "TRY",
-    "token": "BLE",
-    "productType": "IYZILINK",
-    "productStatus": "ACTIVE",
-    "merchantId": 50343,
-    "url": "https://sandbox.iyzi.link/BLE",
-    "imageUrl": "https://sandbox-img.iyzi.link/BL/E.jpg",
-    "addressIgnorable": false,
-    "soldCount": 0,
-    "soldLimit": 1,
-    "remainingSoldLimit": 1,
-    "installmentRequested": false
+    "name": "Sample Integration", // ürünün ismi
+    "conversationId": "123456789", // sipariş numarası 
+    "description": "Sample Integration", // ürünün tanımı
+    "price": 1, // ürünün fiyatı
+    "currencyId": 1, // ürünün para birimi
+    "currencyCode": "TRY", // ürünün para birimi
+    "token": "BLE", //iyzico tarafından üretilen değer
+    "productType": "IYZILINK", // iyzico tarafından kullanılan tip
+    "productStatus": "ACTIVE", // ürünün durumu
+    "merchantId": 50343, // iyzico'daki üye işyeri numarası
+    "url": "https://sandbox.iyzi.link/BLE", // ürünün satın alma linki
+    "imageUrl": "https://sandbox-img.iyzi.link/BL/E.jpg", // ürün resmi
+    "addressIgnorable": false, // ürün adres durumu
+    "soldCount": 0, // satılan ürün sayısı
+    "soldLimit": 1, // toplam stok sayısı
+    "remainingSoldLimit": 1, // kalan stok sayısı
+    "installmentRequested": false // taksit yapılabilir durumu
   }
 }
 ```
@@ -122,6 +126,10 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% endcode-tabs %}
 
 ## Ürünleri Getir
+
+Sadece PHP kütüphanemizde bulunmaktadır.
+
+[https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_retrieve\_products\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_retrieve_products_sample.php)
 
 {% code-tabs %}
 {% code-tabs-item title="İstek" %}
@@ -193,6 +201,10 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 {% endcode-tabs %}
 
 ## Ürün güncelle
+
+Sadece PHP kütüphanemizde bulunmaktadır.
+
+[https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_update\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_update_product_sample.php)
 
 {% code-tabs %}
 {% code-tabs-item title="İstek" %}
