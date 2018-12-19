@@ -11,7 +11,7 @@
 ## rehberler
 
 * [ödeme formu \(checkout\)](tarifler/odeme-formu.md)
-* [Kendi ödeme formunuz](tarifler/kendi-odeme-formunuz.md)
+* [Kendi ödeme formunuz \(API\)](tarifler/kendi-odeme-formunuz.md)
 * [Pazaryeri \(marketplace\)](tarifler/untitled.md)
 * [Abonelik \(subscription\)](tarifler/abonelik.md)
 * [Tek tıkla ödeme \(one click\)](tarifler/tek-tikla-oedeme.md)
