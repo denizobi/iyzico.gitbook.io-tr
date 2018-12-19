@@ -12,16 +12,16 @@ description: iyzilink
 {% code-tabs-item title="İstek" %}
 ```javascript
 {
-  "locale": "tr",
-  "conversationId": "123456789",
-  "price": "1.0",
-  "name": "Sample Integration",
-  "description": "Sample Integration",
-  "encodedImageFile": "/9j/4AAQSkZJRgABAQEAYABgAAD//",
-  "currencyCode": "TRY",
-  "addressIgnorable": false,
-  "soldLimit": 1,
-  "installmentRequested": false
+  "locale": "tr", // tr ve en değerleri desteklenmektedir.
+  "conversationId": "123456789", // sipariş numarası gibi set edebilirsiniz.
+  "price": "1.0", // ürünün fiyatı
+  "name": "Sample Integration", // ürünün ismi
+  "description": "Sample Integration", // ürünün tanımı
+  "encodedImageFile": "/9j/4AAQSkZJRgABAQEAYABgAAD//", // ürünün fotoğrafı
+  "currencyCode": "TRY", // para birimi
+  "addressIgnorable": false, // satın alma esnasında adres bilgisi istensin mi ?
+  "soldLimit": 1, // stok miktarı
+  "installmentRequested": false // taksitli satışa uygun ürün bilgisi
 }
 ```
 {% endcode-tabs-item %}
