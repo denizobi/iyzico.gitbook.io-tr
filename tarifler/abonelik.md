@@ -20,13 +20,7 @@ Saklı kart ile ödeme yapma requesti
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/create\_payment\_with\_registered\_card.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/create_payment_with_registered_card.php)
 
-Kart saklama özelliğini hazır altyapılarda \(woocommerce , prestashop , opencart , magento\)  kullanabilmek için kendi tarafınızda bir geliştirme yapmanız gerekmektedir . Müşterileriniz kartımı sakla butonuna bastığında dönen carduserkey ve cardtoken parametreleri ile kendi tasarladığınız ödeme formu üzerinden ödeme alabilirsiniz . Saklı kart ile ödeme örneğimize linkten ulaşabilirsiniz. 
+Kart saklama abone özelliğini hazır alt yapılarda \(woocommerce , prestashop , opencart , magento\)  kullanabilmek için kendi tarafınızda bir geliştirme yapmanız gerekmektedir . Müşterileriniz kartımı sakla butonuna bastığında dönen carduserkey ve cardtoken parametreleri ile kendi tasarladığınız ödeme formu üzerinden ödeme alabilirsiniz . Saklı kart ile ödeme örneğimize linkten ulaşabilirsiniz. 
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/create\_payment\_with\_registered\_card.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/create_payment_with_registered_card.php)
-
-## kendi ödeme formunuzda registercard\(1\) set edip gönderme
-
-## cardUserKey ve cardToken ile ödeme alma
-
-## iyzico ödeme formunu cardUserKey ile tetikleme
 
