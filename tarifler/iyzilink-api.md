@@ -4,11 +4,11 @@ description: iyzilink
 
 # iyzilink API
 
-5 servisten oluşan iyzilink ürünümüzü PHP kütüphanemiz ile kullanabilirsiniz. 
+5 servisten oluşan iyzilink ürünümüzü PHP & Java kütüphanemiz ile kullanabilirsiniz. 
 
 ## Ürün ekle
 
-Sadece PHP kütüphanemizde bulunmaktadır.
+Sadece PHP & Java kütüphanemizde bulunmaktadır.
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_add\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_add_product_sample.php)
 
@@ -49,7 +49,7 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 
 ## Ürün Sil
 
-Sadece PHP kütüphanemizde bulunmaktadır.
+Sadece PHP & Java kütüphanemizde bulunmaktadır.
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_delete\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_delete_product_sample.php)
 
@@ -79,7 +79,7 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 
 ## Ürün Getir
 
-Sadece PHP kütüphanemizde bulunmaktadır.
+Sadece PHP & Java kütüphanemizde bulunmaktadır.
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_retrieve\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_retrieve_product_sample.php)
 
@@ -127,7 +127,7 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 
 ## Ürünleri Getir
 
-Sadece PHP kütüphanemizde bulunmaktadır.
+Sadece PHP & Java kütüphanemizde bulunmaktadır.
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_retrieve\_products\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_retrieve_products_sample.php)
 
@@ -202,7 +202,7 @@ Sadece PHP kütüphanemizde bulunmaktadır.
 
 ## Ürün güncelle
 
-Sadece PHP kütüphanemizde bulunmaktadır.
+Sadece PHP & Java kütüphanemizde bulunmaktadır.
 
 [https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink\_update\_product\_sample.php](https://github.com/iyzico/iyzipay-php/blob/master/samples/iyzilink_update_product_sample.php)
 
