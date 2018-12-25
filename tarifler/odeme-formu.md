@@ -19,8 +19,6 @@ Hazırladığımız bu rehber ile birlikte iyzico ödeme formunu hızlı bir şe
 
 iyzico kütüphanelerinin içerisinde bulunan sample klasöründen **initialize\_checkout\_form** sayfasını çalıştırabilirsiniz.
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8198585a01d98a150081)
-
 {% tabs %}
 {% tab title="Request" %}
 Samples klasöründeki örneği aşağıdaki parametreleri kullanarak düzenleyin.
