@@ -17,7 +17,7 @@ Hazırladığımız bu rehber ile birlikte iyzico ödeme formunu hızlı bir şe
 
 ## 1- Ödeme formunu başlatmak
 
-iyzico kütüphanelerinin içerisinde bulunan sample klasöründen **initialize\_checkout\_form** sayfasını çalıştırabilirsiniz. 
+iyzico kütüphanelerinin içerisinde bulunan sample klasöründen **initialize\_checkout\_form** sayfasını çalıştırabilirsiniz.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8198585a01d98a150081)
 
