@@ -15,7 +15,7 @@
 * [Pazaryeri \(marketplace\)](tarifler/untitled.md)
 * [Abonelik \(subscription\)](tarifler/abonelik.md)
 * [Tek tıkla ödeme \(one click\)](tarifler/tek-tikla-oedeme.md)
-* [Alternatif ödeme methodları](tarifler/alternatif-oedeme-methodlari-apm.md)
+* [Alternatif methodlar \(APM\)](tarifler/alternatif-oedeme-methodlari-apm.md)
 * [iyzilink API](tarifler/iyzilink-api.md)
 
 ## Sık Sorulan Sorular

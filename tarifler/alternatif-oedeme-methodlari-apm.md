@@ -1,2 +1,2 @@
-# Alternatif ödeme methodları
+# Alternatif methodlar \(APM\)
 
