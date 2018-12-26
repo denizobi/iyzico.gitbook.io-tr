@@ -15,6 +15,8 @@ Hazırladığımız bu rehber ile birlikte iyzico ödeme formunu hızlı bir şe
 * [x] Ödeme formunu kullanmak istediğiniz sayfanın ilgili bölümde aşağıdaki divi kullanın. `<div id="iyzipay-checkout-form" class="responsive"></div>`
 * [x] Formu oluştururken kullandığınız `callbackUrl` adresine sonuç sayfanıza **POST** edilen _token_ değeri ile `RetrieveCheckoutFormRequest` sorgusunu çalıştırıp sonucu öğrenin.
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8198585a01d98a150081)
+
 ## 1- Ödeme formunu başlatmak
 
 iyzico kütüphanelerinin içerisinde bulunan sample klasöründen **initialize\_checkout\_form** sayfasını çalıştırabilirsiniz.
