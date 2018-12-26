@@ -11,6 +11,8 @@ Kendi formunu kullanan üye işyeri form üzerindeki kontrolleri ve kuralları u
 
 Bu entegrasyon rehberinde sisteminiz iyzico ile server-to-server şeklinde konuşur. Yapılan tüm isteklere iyzico anlık olarak yanıt verir. **6** ana servisten oluşur. Bu adımları takip ederek entegrasyonunuzu tamamlayabilirsiniz.
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e883cd2eb09bf55cb1ff)
+
 **Taksit ve Bin Sorgulama**
 
 Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yapılmak istenen kart ile ilgili bilgi edinebilir ve ek olarak taksit \(iş modeliniz uygun ise\) oranlarını yanıt olarak alabilirsiniz. Bu serviste dönen oranlar iyzico üye iş yeri panelindeki oranlardır.
