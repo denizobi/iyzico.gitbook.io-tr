@@ -2,6 +2,10 @@
 
 iyzico pazaryeri çözümünün detaylı açıklaması için aşağıdaki örneği inceleyebilirsiniz.
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/1c7668d2f171e0dc85bd)
+
+
+
 Pazaryeri altında satış yapan 3 adet Alt Üye İşyeri \(satıcı = submerchant\) olsun. Bu alt üye işyerleri bireysel \(C2C\), şahıs şirketi \(B2C\) veya tüzel kişilik \(B2C\) olabilirler. Bir alıcı 100 TL’lik bir sepet oluşturup 3 farklı satıcıdan, örneğin;
 
 * A satıcısından 30 TL’lik,
