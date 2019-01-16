@@ -4,6 +4,7 @@ description: iyzico'nun ödeme formu teknolojisi ile hemen tanışın !
 
 # ödeme formu \(checkout\)
 
+  
 Öncelikle ödeme formu çözümü için hazırladığımız postman kütüphanesi indirebilirsiniz. Postman hakkında daha fazla bilgi için [https://www.getpostman.com/](https://www.getpostman.com/) adresini ziyaret edebilirsiniz.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8198585a01d98a150081)
@@ -44,7 +45,7 @@ https://...iyzipay.com/?token=...-baf8-
 ```
 {% endcode-tabs-item %}
 
-{% code-tabs-item title="Ortak Ödeme" %}
+{% code-tabs-item title="Ortak Ödeme Sayfası" %}
 ```yaml
 #paymentPageUrl ile birlikte
 https://...iyzipay.com/?token=...-baf8-
