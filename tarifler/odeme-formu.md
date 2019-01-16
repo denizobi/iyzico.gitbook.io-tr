@@ -15,7 +15,7 @@ Collection ekranında aşağıdaki görüntüye sahip oldu iseniz tek satır kod
 **Başlat** sorgusu ile iyzico'dan ödeme formunu başlatabilirsiniz. `paymentPageUrl` parametresindeki adresi tarayıcımıza yazarak ödeme sayfasına ulaşabiliriz. Test ortamında olduğumuzdan test kartımızı `Kart Üzerindeki İsim: test test  
 Kart Numarası: 5526080000000006  
 Ay: 10 Yıl: 23 cvc: 123`   
-kullanarak bir ödeme denemesi yapabilirsiniz. Daha sonra bu ödemenin sonucunu Başlat sorgusundan alacağınız `token` değerini **Öğren** sorgusu ile öğrenebilirsiniz. 
+kullanarak bir ödeme denemesi yapabilirsiniz. Daha sonra bu ödemenin sonucunu Başlat sorgusundan alacağınız `token` değeri ile **Öğren** sorgusu ile öğrenebilirsiniz. 
 
 ![iyzico-checkout postman ba&#x15F;lat g&#xF6;r&#xFC;n&#xFC;m&#xFC;](../.gitbook/assets/image%20%283%29.png)
 
