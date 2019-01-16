@@ -18,25 +18,40 @@ Başlat sorgusunu ile ödeme formunu tetikleyebilirsiniz. Hemen "Send" butonuna 
 
 Bu yanıt 4 farklı şekilde kullanılabilir.
 
-`checkoutFromContent` alanı ile birlikte siteniz içerisinde kullanmak istediğiniz sayfada aşağıdaki divleri yazabilirsiniz.
+{% code-tabs %}
+{% code-tabs-item title="Responsive" %}
+```markup
+<!--checkoutFromContent ile birlikte-->
+<div id="iyzipay-checkout-form" class="responsive"></div>
 
-Responsive kullanım için
+```
+{% endcode-tabs-item %}
 
-`<div id="iyzipay-checkout-form" class="responsive"></div>`
+{% code-tabs-item title="Pop up" %}
+```markup
+<!--checkoutFromContent ile birlikte-->
+<div id="iyzipay-checkout-form" class="popup"></div>
 
-Popup şeklinde kullanım için
+```
+{% endcode-tabs-item %}
 
-`<div id="iyzipay-checkout-form" class="popup"></div>`
+{% code-tabs-item title="iframe" %}
+```yaml
+#paymentPageUrl ile birlikte
+https://...iyzipay.com/?token=...-baf8-
+2a3430b66de9&lang=tr&iframe=true
 
-`paymentPageUrl` alanı ile birlikte 
+```
+{% endcode-tabs-item %}
 
-iframe şeklinde kullanmak için
-
-`https://...iyzipay.com/?token=...-baf8-2a3430b66de9&lang=tr`**`&iframe=true`**
-
-Ortak ödeme sayfası şeklinde kullanmak için
-
-`https://...iyzipay.com/?token=...-baf8-2a3430b66de9&lang=tr`
+{% code-tabs-item title="Ortak Ödeme" %}
+```yaml
+#paymentPageUrl ile birlikte
+https://...iyzipay.com/?token=...-baf8-
+2a3430b66de9&lang=tr
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 Yukarıdaki kullanımlardan dilediğinizi seçebilirsiniz. Test ortamında test kartlarını kullanarak bir ödeme denemesi hemen yapabilirsiniz.
 
