@@ -4,20 +4,24 @@ description: iyzico'nun ödeme formu teknolojisi ile hemen tanışın !
 
 # ödeme formu \(checkout\)
 
-  
-Öncelikle ödeme formu çözümü için hazırladığımız postman kütüphanesi indirebilirsiniz. Postman hakkında daha fazla bilgi için [https://www.getpostman.com/](https://www.getpostman.com/) adresini ziyaret edebilirsiniz.
+Öncelikle ödeme formu çözümü için hazırladığımız postman kütüphanesi indirebilirsiniz. 
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8198585a01d98a150081)
+![Postman&apos;in y&#xFC;kl&#xFC; olmas&#x131; gerekmektedir.](https://run.pstmn.io/button.svg)
 
-Collection ekranında aşağıdaki görüntüye sahip oldu iseniz artık entegrasyonu test etmeye başlayabilirsiniz.
+Collection ekranında aşağıdaki görüntüye sahip oldu iseniz tek satır kod yazmadan entegrasyonu test etmeye başlayabilirsiniz. 
 
 ![iyzico-checkout postman collection g&#xF6;r&#xFC;n&#xFC;m&#xFC;](../.gitbook/assets/image%20%282%29.png)
 
-Başlat sorgusunu ile ödeme formunu tetikleyebilirsiniz. Hemen "Send" butonuna tıklayarak iyzico test ortamından form oluşturma için "success" yanıtını alabilirsiniz.
+**Başlat** sorgusu ile iyzico'dan ödeme formunu başlatabilirsiniz. `paymentPageUrl` parametresindeki adresi tarayıcımıza yazarak ödeme sayfasına ulaşabiliriz. Test ortamında olduğumuzdan test kartımızı `Kart Üzerindeki İsim: test test  
+Kart Numarası: 5526080000000006  
+Ay: 10 Yıl: 23 cvc: 123`   
+kullanarak bir ödeme denemesi yapabilirsiniz. Daha sonra bu ödemenin sonucunu Başlat sorgusundan alacağınız `token` değerini **Öğren** sorgusu ile öğrenebilirsiniz. 
 
 ![iyzico-checkout postman ba&#x15F;lat g&#xF6;r&#xFC;n&#xFC;m&#xFC;](../.gitbook/assets/image%20%283%29.png)
 
-Bu yanıt 4 farklı şekilde kullanılabilir.
+![iyzico-checkout postman &#xF6;&#x11F;ren g&#xF6;r&#xFC;n&#xFC;m&#xFC;](../.gitbook/assets/image%20%284%29.png)
+
+Başlat sorgusunda gelen yanıt 4 farklı şekilde kullanılabilir;
 
 {% code-tabs %}
 {% code-tabs-item title="Responsive" %}
@@ -54,15 +58,7 @@ https://...iyzipay.com/?token=...-baf8-
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
-Yukarıdaki kullanımlardan dilediğinizi seçebilirsiniz. Test ortamında test kartlarını kullanarak bir ödeme denemesi hemen yapabilirsiniz.
-
-`5526080000000006  
-10 / 2023  
-123`
-
 Ödeme formuna kart bilgileri girilip "X TL Öde" butonuna basıldıktan sonra; ödeme formunu oluştururken belirlenen `callbackUrl` adresine işlemin sonucunu içerisinde taşıyan **token** değeri **POST** edilir. Bu token değerini kullanarak Öğren sorgusu yapılır.
-
-![](../.gitbook/assets/image%20%284%29.png)
 
 Eğer **`status`** ve **`paymentStatus`** parametreleri aynı aynda **success/SUCCESS** değerini taşıyor ise ve **`price`**, **`paidPrice`**, **`basketId`**, **`itemId`** gibi değerleri başlatma esnasındaki değerler ile uyumlu ise ödemeniz başarılı bir şekilde tamamlanmıştır.
 
@@ -100,6 +96,10 @@ Eğer **`status`** ve **`paymentStatus`** parametreleri aynı aynda **success/SU
 {% endtab %}
 
 {% tab title="Python" %}
+
+{% endtab %}
+
+{% tab title="" %}
 
 {% endtab %}
 {% endtabs %}
