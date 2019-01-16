@@ -37,7 +37,7 @@ Bu yanıt 4 farklı şekilde kullanılabilir.
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="iframe" %}
-```yaml
+```http
 #paymentPageUrl ile birlikte
 https://...iyzipay.com/?token=...-baf8-
 2a3430b66de9&lang=tr&iframe=true
@@ -46,7 +46,7 @@ https://...iyzipay.com/?token=...-baf8-
 {% endcode-tabs-item %}
 
 {% code-tabs-item title="Ortak Ödeme Sayfası" %}
-```yaml
+```http
 #paymentPageUrl ile birlikte
 https://...iyzipay.com/?token=...-baf8-
 2a3430b66de9&lang=tr
@@ -65,6 +65,46 @@ Yukarıdaki kullanımlardan dilediğinizi seçebilirsiniz. Test ortamında test 
 ![](../.gitbook/assets/image%20%284%29.png)
 
 Eğer **`status`** ve **`paymentStatus`** parametreleri aynı aynda **success/SUCCESS** değerini taşıyor ise ve **`price`**, **`paidPrice`**, **`basketId`**, **`itemId`** gibi değerleri başlatma esnasındaki değerler ile uyumlu ise ödemeniz başarılı bir şekilde tamamlanmıştır.
+
+{% tabs %}
+{% tab title="PHP" %}
+[Başlat](https://github.com/iyzico/iyzipay-php/blob/master/samples/initialize_checkout_form.php)
+
+[Öğren](https://github.com/iyzico/iyzipay-php/blob/master/samples/retrieve_checkout_form_result.php)
+
+[İşlem Sorgula](https://github.com/iyzico/iyzipay-php/blob/master/samples/reporting_payment_detail.php)
+
+[İptal](https://github.com/iyzico/iyzipay-php/blob/master/samples/cancel_with_reason.php)
+
+[İade](https://github.com/iyzico/iyzipay-php/blob/master/samples/refund_with_reason.php)
+
+[Günlük İşlemler](https://github.com/iyzico/iyzipay-php/blob/master/samples/reporting_payment_transaction.php)
+
+[Para Aktarım Raporu](https://github.com/iyzico/iyzipay-php/blob/master/samples/retrieve_payout_transactions.php)
+{% endtab %}
+
+{% tab title=".NET" %}
+
+{% endtab %}
+
+{% tab title="Node" %}
+
+{% endtab %}
+
+{% tab title="Java" %}
+
+{% endtab %}
+
+{% tab title="Ruby" %}
+
+{% endtab %}
+
+{% tab title="Python" %}
+
+{% endtab %}
+{% endtabs %}
+
+
 
 ## 4- Entegrasyon Testleri
 
