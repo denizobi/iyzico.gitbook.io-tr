@@ -6,6 +6,8 @@ description: iyzilink
 
 5 servisten oluşan iyzilink ürünümüzü PHP & Java kütüphanemiz ile kullanabilirsiniz. 
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/51e6d89cfeb59e4e8693)
+
 ## Ürün ekle
 
 Sadece PHP & Java kütüphanemizde bulunmaktadır.
@@ -241,4 +243,38 @@ Sadece PHP & Java kütüphanemizde bulunmaktadır.
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## Hızlı Ürün Ekle
+
+Sadece Postman kütüphanemizde bulunmaktadır.
+
+{% code-tabs %}
+{% code-tabs-item title="İstek" %}
+```javascript
+{
+    "description": "product-description", // ürün tanımı
+    "price": 1, // ürün fiyatı
+    "currencyCode": "TRY", // para birimi
+	"conversationId": "conversationId", // sipariş numarası gibi set edebilirsiniz
+	"sourceType": "API" // sorgu kaynağı
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Yanıt" %}
+```javascript
+{
+    "status": "success", //sorgunun yanıtı
+    "systemTime": 1548169525888, // unix zaman damgası
+    "conversationId": "conversationId", // sipariş numarası
+    "data": {
+        "token": "BWM", // ürün tokeni
+        "url": "https://sandbox.iyzi.link/BWM" // ürün satın alma linki
+    }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+
 
