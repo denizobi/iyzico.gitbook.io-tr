@@ -6,9 +6,11 @@ description: iyzico'nun ödeme formu teknolojisi ile hemen tanışın !
 
 Öncelikle ödeme formu çözümü için hazırladığımız postman kütüphanesi indirebilirsiniz. 
 
-![Postman&apos;in y&#xFC;kl&#xFC; olmas&#x131; gerekmektedir.](https://run.pstmn.io/button.svg)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/8198585a01d98a150081)
 
 Collection ekranında aşağıdaki görüntüye sahip oldu iseniz tek satır kod yazmadan entegrasyonu test etmeye başlayabilirsiniz. 
+
+
 
 ![iyzico-checkout postman collection g&#xF6;r&#xFC;n&#xFC;m&#xFC;](../.gitbook/assets/image%20%282%29.png)
 
