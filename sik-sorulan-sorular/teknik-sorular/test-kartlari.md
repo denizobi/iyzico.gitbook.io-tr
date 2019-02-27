@@ -14,6 +14,7 @@
 | 9792030000000000 | Finansbank | Troy \(Credit\) |
 | 5170410000000004 | Garanti Bankası | Master Card \(Debit\) |
 | 5400360000000003 | Garanti Bankası | Master Card \(Credit\) |
+| 5499970000000001 | Garanti Bankası | Master Card \(Credit\) |
 | 374427000000003 | Garanti Bankası | American Express |
 | 4475050000000003 | Halkbank | Visa \(Debit\) |
 | 5528790000000008 | Halkbank | Master Card \(Credit\) |
