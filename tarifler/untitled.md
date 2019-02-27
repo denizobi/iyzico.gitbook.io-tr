@@ -22,7 +22,7 @@ iyzico Pazaryeri çözümü genel olarak para toplama\(collection\) ve dağıtma
 * Ödeme \(API veya Ödeme Formu entegrasyonu tercih edilebilir.\)
 * Para Transferi İçin Ürüne Onay Verme
 
-Para transferinin satıcılara \(alt üye işyerlerine\) yapılabilmesi için bu satıcıların iyzico’ya tek seferlik kaydının yapılması gerekir. Bu da onboarding API ile sağlanır; üye işyeri satıcıyı iyzico’ya kaydettiği anda, istek dönüşünde o satıcı için **subMerchanKey** alır.
+Para transferinin satıcılara \(alt üye işyerlerine\) yapılabilmesi için bu satıcıların iyzico’ya tek seferlik kaydının yapılması gerekir. Bu da onboarding API ile sağlanır; üye işyeri satıcıyı iyzico’ya kaydettiği anda, istek dönüşünde o satıcı için **subMerchantKey** alır.
 
 Ödeme esnasında da sepetteki her bir ürünün satıcısı için ilgili **subMerchantKey** ve bu işlemde satıcıya kaç para gönderilecek ise bu tutar \(**subMerchantPrice**\) iletilmelidir.
 
