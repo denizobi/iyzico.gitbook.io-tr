@@ -99,11 +99,25 @@ Yabancı para birimi üzerinden gerçekleştirilecek işlemlerde, Komisyon Ücre
 
 Döviz kurları için [http://www.tcmb.gov.tr/kurlar/today.xml](http://www.tcmb.gov.tr/kurlar/today.xml) linkindeki her gece saat 02:10’da. Forex alış, forex satış alanları dikkate alınmaktadır.
 
-## **Geçersiz istek ve Geçersiz imza hataları neden alınır ve nasıl çözülür?**
+## **Geçersiz imza hatası neden alınır ve nasıl çözülür?**
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+iyzico API’ına datalar gönderilirken secretKey'in güvenliği için bir hash oluşturulup şifrelenip gönderilmektedir. Eğer bu hash iyzico tarafında çözülemez ise bu hata mesajı dönmektedir.
 
-## **Geçersiz istek ve Geçersiz imza hataları neden alınır ve nasıl çözülür?**
+Bu hataya sebep olan durumlar: 
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+1. güvenlik anahtarının \(secret key\) yanlış girilmesi
+2. utf-8 kullanılmaması
+3. Parametrelerin uygun formatta gönderilmemesi
+
+
+
+1. Senaryo kontrolü : En basit sorgu olan bin sorgusu ile bir deneme yapabilir misiniz? Eğer bu sorgu başarılı sonuçlanıyor ise güvenlik anahtarı doğru demektir.
+2. Senaryo kontrolü : Bin sorgusunda, conversationId parametresine türkçe karakterler ekleyerek deneyebilir misiniz?
+3. Github örneğimizdeki parametreleri birebir set ederek bir deneme yapabilir misiniz? \([https://github.com/iyzico](https://github.com/iyzico)\)
+
+## **Geçersiz istek hatası neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz.
+
+Ör: 1,0 değil 1.0
 
