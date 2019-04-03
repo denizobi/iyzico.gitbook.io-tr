@@ -36,7 +36,7 @@ Eğer hesabınız entegrasyon aşamasında uzun süre kaldı ise entegrasyonu ha
 
 3D entegrasyonu bir asenkron iletişim yapar. Kendi ödeme formunuzu kullandığınız API entegrasyonlarında 3D ile ödeme için öncelikle bir adet başlatma \(initialize\) sorgusu yapılır. Bu sorguya gelen yanıt bir HTML sayfası içerir. Yapmanız gereken bu HTML sayfasını render ederek son kullanıcıya göstermenizdir. Kullanıcı şifresini girdikten sonra başlatma sorgusunda verdiğiniz dönüş \(callbackUrl\) adresine iyzico doğrulamanın başarılı veya başarısız olduğu ile alakalı olarak sonuç iletir. \(browser redirection\) Başarılı olan durumlarda bitirme \(create\) sorgusu yapılarak işlem tamamlanır.
 
-## **istek yanıtı Null olarak dönüyor ve TLS 1.2 konusunda ne yapabilirim?**
+## **İstek yanıtı Null olarak dönüyor ve TLS 1.2 konusunda ne yapabilirim?**
 
 iyzico'nun ödeme formunun görüntülenebilmesi için en önemli kriterlerden birincisi TLS versiyonunuzdur. PCI-DSS gerekliliklerinden dolayı TLS 1.2 versiyonu ile sisteminizin iyzico'ya sorgu yapabildiğinden emin olun. Sunucunuzun TLS 1.2 desteklemesi yeterli olmamak ile birlikte bu versiyonun kodunuz sorgu yapar iken kullanıldığından emin olunuz. PHP dilinde örnek TLS kontrol kodu aşağıdaki gibidir. Bu kodu test.php gibi bir sayfaya ekleyerek bu sayfayı tarayıcıdan çağırdığınızda aktif TLS versiyonu ekrana yazdırılacaktır. 
 
