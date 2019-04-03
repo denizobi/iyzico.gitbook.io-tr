@@ -34,7 +34,7 @@ Eğer hesabınız entegrasyon aşamasında uzun süre kaldı ise entegrasyonu ha
 
 ## **3D entegrasyonunda dikkat edilmesi gereken noktalar?**
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+3D entegrasyonu bir asenkron iletişim yapar. Kendi ödeme formunuzu kullandığınız API entegrasyonlarında 3D ile ödeme için öncelikle bir adet başlatma \(initialize\) sorgusu yapılır. Bu sorguya gelen yanıt bir HTML sayfası içerir. Yapmanız gereken bu HTML sayfasını render ederek son kullanıcıya göstermenizdir. Kullanıcı şifresini girdikten sonra başlatma sorgusunda verdiğiniz dönüş \(callbackUrl\) adresine iyzico doğrulamanın başarılı veya başarısız olduğu ile alakalı olarak sonuç iletir. \(browser redirection\) Başarılı olan durumlarda bitirme \(create\) sorgusu yapılarak işlem tamamlanır.
 
 ## **istek yanıtı Null olarak dönüyor ve TLS 1.2 konusunda ne yapabilirim?**
 
