@@ -49,5 +49,4 @@
   * [Parametre Sözlüğü](sik-sorulan-sorular/teknik-sorular/parametre-soezluegue.md)
   * [github.com/iyzico](sik-sorulan-sorular/teknik-sorular/github.com-iyzico.md)
   * [Sandbox/Test Ortamı](sik-sorulan-sorular/teknik-sorular/sandbox-test-ortami.md)
-* [Genel Sorular](sik-sorulan-sorular/genel-sorular.md)
 
