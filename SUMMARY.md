@@ -49,9 +49,5 @@
   * [Parametre Sözlüğü](sik-sorulan-sorular/teknik-sorular/parametre-soezluegue.md)
   * [github.com/iyzico](sik-sorulan-sorular/teknik-sorular/github.com-iyzico.md)
   * [Sandbox/Test Ortamı](sik-sorulan-sorular/teknik-sorular/sandbox-test-ortami.md)
-* [Genel Sorular](sik-sorulan-sorular/genel-sorular/README.md)
-  * [Kişisel Verilerin Korunması Kanunu](sik-sorulan-sorular/genel-sorular/kisisel-verilerin-korunmasi-kanunu.md)
-  * [SSL Nedir](sik-sorulan-sorular/genel-sorular/ssl-nedir.md)
-  * [SSL Kurulumu](sik-sorulan-sorular/genel-sorular/ssl-kurulumu-icin-kimden-destek-alabilirim.md)
-  * [Çevrim Ücreti](sik-sorulan-sorular/genel-sorular/cevrim-uecreti.md)
+* [Genel Sorular](sik-sorulan-sorular/genel-sorular.md)
 
