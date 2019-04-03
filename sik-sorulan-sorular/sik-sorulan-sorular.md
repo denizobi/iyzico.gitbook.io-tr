@@ -24,7 +24,13 @@ Eğer bu adrese sorgu yapamıyor iseniz yani ekranda null veya boş görüyorsan
 
 ## **Entegrasyonu tamamlama maili aldım ne yapmalıyım?**
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+Canlı ortamda oluşturduğunuz 1 TL - 5 TL arasındaki bir test ürününü gerçek bir kart ile başarılı bir ödeme yapıp  entegrasyon@iyzico.com adresine sisteme kayıt olduğunuz mail adresinen üye iş yeri numaranızı içeren bir email göndererek **canlı** statüsüne geçiş sürecinizi tamamlayabilirsiniz. Ödeme işleminizi ve gönderilen parametreleri kontrol ederek hesabınızın canlıya geçiş sürecini tamamlamaktan memnuniyet duyarız.
+
+iyzico panelinizde "Ayarlar-&gt;Firma Ayarları" menüsünde API ve Güvenlik anahtarını görebiliyor olmanız gereklidir. Gerçek bir kart ile başarılı işlem için API ve Güvenlik anahtarlarının kullanılması gerekmektedir. Göremediğiniz durumlarda başvurunuz ile alakalı destek@iyzico.com adresine ulaşabilirsiniz. Panele giriş için aşağıdaki linki kullanabilirsiniz.
+
+[https://merchant.iyzipay.com/auth/login](https://merchant.iyzipay.com/auth/login)
+
+Eğer hesabınız entegrasyon aşamasında uzun süre kaldı ise entegrasyonu hatırlatmak için sistemimiz otomatik olarak bu maili göndermektedir. Hesabınız canlı statüsüne geçişi tamamladığınızda bu maili almayacaksınız. 
 
 ## **3D entegrasyonunda dikkat edilmesi gereken noktalar?**
 
