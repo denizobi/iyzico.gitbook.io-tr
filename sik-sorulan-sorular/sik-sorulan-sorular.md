@@ -56,11 +56,17 @@ Eğer bu adrese sorgu yapamıyor iseniz yani ekranda null veya boş görüyorsan
 
 ## Kart kaynakları hataları nasıl anlayabilirim?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+iyzico' sisteminde 2 tip hata vardır. İlk tip hata kodları panelinizde **işlemler-&gt;tüm işlemler** menüsünde görüntülenebilir. [https://merchant.iyzipay.com/transactions](https://merchant.iyzipay.com/transactions)
+
+Tüm işlemler menüsündeki hatalar iyzico'nun çalıştığı bankalardan dönen hatalardır. Bu hatalar yüksek ihtimal ile kartın sahibinin bankasından kaynaklanmaktadır.
+
+İkinci tip hatalar ise işlemler-&gt;validasyon hataları menüsünde görüntülenebilir. [https://merchant.iyzipay.com/validation-errors](https://merchant.iyzipay.com/validation-errors) 
+
+Validasyon hataları ise iyzico'nun sisteminden dönen hatalardır. Bu hatalar konusunda neler yapılabileceği ile alakalı olarak entegrasyon@iyzico.com mail adresinden entegrasyon ekibi ile iletişime geçebilirsiniz.
 
 ## Zorunlu parametreler hangileridir?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+Rehberler bölümündeki ürünlerin içerisindeki POSTMAN sorgularının body kısmı minimum parametrelerden oluşmaktadır. Bu sorguları baz alabilirsiniz. Tüm üye işyerleri sahtecilik koruma programı kapsamında gönderilen isteklerde doğru değerlerle doldurulan parametreleri göndermelidir. 
 
 ## İşlemler panelde neden görünmüyor?
 
