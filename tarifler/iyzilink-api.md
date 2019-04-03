@@ -1,5 +1,5 @@
 ---
-description: iyzilink
+description: iyzilink API
 ---
 
 # iyzilink API
