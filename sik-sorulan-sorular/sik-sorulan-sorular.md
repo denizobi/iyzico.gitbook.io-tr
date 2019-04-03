@@ -74,3 +74,36 @@ Yes, after a few months we finally found the answer. Sadly, Mike is on vacations
 
 Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
 
+## Kişisel Verilerin Korunması Kanunu ile alakalı yapmam gerekenler nedir?
+
+Site sahibi internet sitesine üye olacak son kullanıcıların onaylayacakları Kullanıcı Sözleşmesine aşağıdaki cümleyi bir madde olarak eklemelidir.
+
+Müşteri \(son kullanıcı\), ödeme yöntemine, üyeliğine ve siparişine ilişkin bilgilerin, ödemenin gerçekleştirilebilmesi ve ödeme usulsüzlüklerinin önlenmesi, araştırılması ve tespit edilmesini temin amacıyla iyzico Ödeme Hizmetleri A.Ş.’ye aktarılmasına ve iyzico tarafından [https://www.iyzico.com/gizlilik-politikasi/ ](https://www.iyzico.com/gizlilik-politikasi/)adresindeki Gizlilik Politikası’nın en güncel halinde açıklandığı şekilde işlenmesine ve saklanmasına rıza göstermektedir.
+
+## SSL Güvenlik Protokolü
+
+SSL ile internet tarayıcısına girilen bilgilerinin şifrelenerek transfer edilmesini _\(post edilmesini\)_ sağlayan güvenlik protokolüdür. Veri trafiği şifrelenir ve şifreli trafik başkaları tarafından izlenemez, kredi kartı ve diğer kişisel bilgiler trafik izlenerek okunamaz.
+
+SSL sertifikası bulunan e-ticaret sitelerine, http:// yerine https:// kullanarak gireceği için adres çubuğunda bu ibarenin bulunduğu sitelerin güvenli olduğunu anlaşılabilir. Çünkü yetkili bir şirket tarafından onaylanan SSL sertifikası ile adres https:// olarak kullanıma açılır. Bu sertifikanın bulunduğu sitelerden yapılan alışverişlerde verilen kredi kartı bilgileri kopyalanmaya karşı şifrelenerek ödeme kuruluşuna gönderilir ve işlem gerçekleştirilir. Tahmini ve ele geçirilmesi pek mümkün olmayan bu şifre kombinasyonları sayesinde kart bilgileri ve diğer kişisel veriler üçüncü kişilerle paylaşılmaz, kopyalanarak kötü amaçlarla kullanılmasının önüne geçilir.
+
+## SSL Kurulumu İçin Kimden Destek Alabilirim?
+
+SSL kurulumuna dair daha önce bir tecrübeniz yok ise;  
+· Hazır bir e-ticaret altyapısı kullanıyorsanız altyapı sağlayan firmanızdan destek alabilirsiniz.  
+· Açık kaynaklı veya özel yazılım bir web siteniz var ise hosting _\(sunucu\)_ sağlayıcınızdan destek alabilirsiniz. Hosting hizmeti aldığınız firma, sitenize SSL kurulumu için yardımcı olacaktır.  
+· SSL kurumunu sitenizde kendiniz tamamlamayı planlıyorsanız [https://movingtohttps.com](https://movingtohttps.com/) adresinden _\(İngilizce\)_ ayrıntılı bilgiye ulaşabilirsiniz.
+
+## iyzico Çevrim Ücreti nedir?
+
+Yabancı para birimi üzerinden gerçekleştirilecek işlemlerde, Komisyon Ücreti oranına %2 hizmet bedeli eklenecektir. Yabancı para birimi ile yapılacak satışlara uygulanacak ücret ise İşlem Ücreti’nin, işlemin yapıldığı gün Türkiye Cumhuriyet Merkez Bankası \(T.C.M.B.\) tarafından ilan edilen efektif satış kuru üzerinden hesaplanacak yabancı para birimi karşılığı + KDV olacaktır.
+
+Döviz kurları için [http://www.tcmb.gov.tr/kurlar/today.xml](http://www.tcmb.gov.tr/kurlar/today.xml) linkindeki her gece saat 02:10’da. Forex alış, forex satış alanları dikkate alınmaktadır.
+
+## **Geçersiz istek ve Geçersiz imza hataları neden alınır ve nasıl çözülür?**
+
+Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+
+## **Geçersiz istek ve Geçersiz imza hataları neden alınır ve nasıl çözülür?**
+
+Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+
