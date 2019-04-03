@@ -99,7 +99,7 @@ Yabancı para birimi üzerinden gerçekleştirilecek işlemlerde, Komisyon Ücre
 
 Döviz kurları için [http://www.tcmb.gov.tr/kurlar/today.xml](http://www.tcmb.gov.tr/kurlar/today.xml) linkindeki her gece saat 02:10’da. Forex alış, forex satış alanları dikkate alınmaktadır.
 
-## **Geçersiz imza hatası neden alınır ve nasıl çözülür?**
+## **Geçersiz imza hatası nedir, neden alınır ve nasıl çözülür?**
 
 iyzico'ya yapılan sorgularda datalar gönderilirken secretKey'in güvenliği için bir hash oluşturulup şifrelenip gönderilmektedir. Eğer bu hash iyzico tarafında çözülemez ise bu hata mesajı dönmektedir.
 
@@ -115,9 +115,41 @@ Bu hatayı çözebilmek ve sebebini bulabilmek için
 2. Senaryo kontrolü: Taksit sorgusunda, conversationId parametresine türkçe karakterler ekleyerek deneyebilir misiniz? Örnek olarak; ş, ü, ğ, ç..vb gibi.
 3. Senaryo kontrolü: Yaptığınız sorgunun parametrelerini github üzerindeki kütüphanemizdeki örneklerde kullanılan parametreleri birebir set ederek bir deneme yapabilirsiniz. \([https://github.com/iyzico](https://github.com/iyzico)\)
 
-## **Geçersiz istek hatası neden alınır ve nasıl çözülür?**
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
 
-“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz.
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
 
-Ör: 1,0 değil 1.0
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+## **Geçersiz istek hatası nedir, neden alınır ve nasıl çözülür?**
+
+“Geçersiz istek" hatası, parametreler uygun formatta set edilmediği zaman dönmektedir. Set ettiğiniz parametrelerin formatını kontrol edebilirsiniz. İlk adımda tutar parametrelerinin ondalık kısmını virgülle değil nokta ile ayırdığınızı kontrol edebilirsiniz. Ör: 1,0 değil 1.0
+
+
 
