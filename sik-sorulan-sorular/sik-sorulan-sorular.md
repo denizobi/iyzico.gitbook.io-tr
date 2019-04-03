@@ -60,7 +60,7 @@ iyzico' sisteminde 2 tip hata vardır. İlk tip hata kodları panelinizde **işl
 
 Tüm işlemler menüsündeki hatalar iyzico'nun çalıştığı bankalardan dönen hatalardır. Bu hatalar yüksek ihtimal ile kartın sahibinin bankasından kaynaklanmaktadır.
 
-İkinci tip hatalar ise işlemler-&gt;validasyon hataları menüsünde görüntülenebilir. [https://merchant.iyzipay.com/validation-errors](https://merchant.iyzipay.com/validation-errors) 
+İkinci tip hatalar ise **işlemler-&gt;validasyon hataları** menüsünde görüntülenebilir. [https://merchant.iyzipay.com/validation-errors](https://merchant.iyzipay.com/validation-errors) 
 
 Validasyon hataları ise iyzico'nun sisteminden dönen hatalardır. Bu hatalar konusunda neler yapılabileceği ile alakalı olarak entegrasyon@iyzico.com mail adresinden entegrasyon ekibi ile iletişime geçebilirsiniz.
 
@@ -70,7 +70,7 @@ Rehberler bölümündeki ürünlerin içerisindeki POSTMAN sorgularının body k
 
 ## İşlemler panelde neden görünmüyor?
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+iyzico'ya yapılan sorguların görüntülenebileceği 2 adet menü bulunmaktadır. [**işlemler-&gt;tüm işlemler**](https://merchant.iyzipay.com/transactions) ****ve ****[**işlemler-&gt;validasyon hataları**](https://merchant.iyzipay.com/validation-errors) ****menülerinde bulunabilir. Bu menüler ile ilgili detaylı bilgiyi [bağlantıdaki](https://dev-beta.iyzipay.com/tr/sik-sorulan-sorular/sik-sorulan-sorular#kart-kaynaklari-hatalari-nasil-anlayabilirim) sorumuzdan alabilirsiniz.
 
 ## **Api bilgilerim neden görünmüyor?**
 
