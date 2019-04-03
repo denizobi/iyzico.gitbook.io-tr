@@ -1,6 +1,6 @@
 # Abonelik \(subscription\)
 
-iyzico alt yapısında kart saklama özelliği bulunmaktadır. iyzico panelinize giriş yaptıktan sonra sol menüdeki "**Eklentiler**" bölümünden "**Kart Saklama**" uygulamasını satın alarak kart saklama özelliğinden faydalanabilirsiniz . 
+iyzico alt yapısında kart saklama özelliği bulunmaktadır. iyzico panelinize giriş yaptıktan sonra sol menüdeki "**Eklentiler**" bölümünden "**Kart Saklama**" uygulamasını satın alarak kart saklama özelliğinden faydalanabilirsiniz. 
 
 Bir ödeme sırasında \(veya ödemeden bağımsız\) müşterinizin kartını iyzico alt yapısında saklayabilirsiniz.
 
