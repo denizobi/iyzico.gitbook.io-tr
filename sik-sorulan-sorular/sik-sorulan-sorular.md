@@ -74,7 +74,7 @@ iyzico'ya yapılan sorguların görüntülenebileceği 2 adet menü bulunmaktad�
 
 ## **Api bilgilerim neden görünmüyor?**
 
-Yes, after a few months we finally found the answer. Sadly, Mike is on vacations right now so I'm afraid we are not able to provide the answer at this point.
+Bireysel başvurularınızda \(iyzilink\) API ve Güvenlik anahtar bilgileri gizli tutulmaktadır. Eğer bir vergi numarası ile başvuru yaptı iseniz, iyzico panelinizde "Ayarlar-&gt;Firma Ayarları" menüsünde API ve Güvenlik anahtarını görebiliyor olmanız gereklidir. Göremediğiniz durumlarda başvurunuz ile alakalı destek@iyzico.com adresine ulaşabilirsiniz. 
 
 ## **Geçersiz istek ve Geçersiz imza hataları neden alınır ve nasıl çözülür?**
 
