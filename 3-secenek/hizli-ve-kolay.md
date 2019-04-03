@@ -10,7 +10,7 @@ description: >-
 **ÖNEMLİ UYARI**
 
 1. İlk olarak altyapı sağlayıcınız ile iyzico ödeme yönteminin aktif olduğunu teyit ediniz.
-2. iyzico API ve Güvenlik anahtarını altyapınızın\(ideasoft, ticimax, tsoft, shopify..vb\) panelindeki ilgili bölüme kopyalayıp kaydettiğinizde **entegrasyon tamamlanmıştır.** 1 - 3 TL'lik gerçek bir kart ile ödeme yaparak kontrol etmenizi öneririz.
+2. iyzico API ve Güvenlik anahtarını altyapınızın\(ideasoft, ticimax, tsoft, shopify vb.\) panelindeki ilgili bölüme kopyalayıp kaydettiğinizde **entegrasyon tamamlanmıştır.** 1 - 3 TL'lik gerçek bir kart ile ödeme yaparak kontrol etmenizi öneririz.
 3. Seçim yapmadan önce, özel ihtiyaçlarınızı \(abonelik, tek tıkla ödeme, kart saklama, iptal ve iadeleri altyapı panelinden tetikleme..vb\) **destek aldığınız firma** ile kontrol etmeniz gerekmektedir.
 {% endhint %}
 
