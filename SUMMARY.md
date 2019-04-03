@@ -20,6 +20,7 @@
 
 ## Sık Sorulan Sorular
 
+* [Sık Sorulan Sorular](sik-sorulan-sorular/sik-sorulan-sorular.md)
 * [Teknik Sorular](sik-sorulan-sorular/teknik-sorular/README.md)
   * [Test Kartları](sik-sorulan-sorular/teknik-sorular/test-kartlari.md)
   * [Hata Kodları](sik-sorulan-sorular/teknik-sorular/hata-kodlari/README.md)
