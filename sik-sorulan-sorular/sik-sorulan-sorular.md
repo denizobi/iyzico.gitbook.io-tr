@@ -101,19 +101,19 @@ Döviz kurları için [http://www.tcmb.gov.tr/kurlar/today.xml](http://www.tcmb.
 
 ## **Geçersiz imza hatası neden alınır ve nasıl çözülür?**
 
-iyzico API’ına datalar gönderilirken secretKey'in güvenliği için bir hash oluşturulup şifrelenip gönderilmektedir. Eğer bu hash iyzico tarafında çözülemez ise bu hata mesajı dönmektedir.
+iyzico'ya yapılan sorgularda datalar gönderilirken secretKey'in güvenliği için bir hash oluşturulup şifrelenip gönderilmektedir. Eğer bu hash iyzico tarafında çözülemez ise bu hata mesajı dönmektedir.
 
 Bu hataya sebep olan durumlar: 
 
-1. güvenlik anahtarının \(secret key\) yanlış girilmesi
-2. utf-8 kullanılmaması
-3. Parametrelerin uygun formatta gönderilmemesi
+1. Güvenlik anahtarının \(secret key\) yanlış girilmesi
+2. Karakter seti olarak UTF-8 kullanılmaması
+3. Parametrelerin uygun formatta gönderilmemesi \(integer yerine string..vb\)
 
+Bu hatayı çözebilmek ve sebebini bulabilmek için
 
-
-1. Senaryo kontrolü : En basit sorgu olan bin sorgusu ile bir deneme yapabilir misiniz? Eğer bu sorgu başarılı sonuçlanıyor ise güvenlik anahtarı doğru demektir.
-2. Senaryo kontrolü : Bin sorgusunda, conversationId parametresine türkçe karakterler ekleyerek deneyebilir misiniz?
-3. Github örneğimizdeki parametreleri birebir set ederek bir deneme yapabilir misiniz? \([https://github.com/iyzico](https://github.com/iyzico)\)
+1. Senaryo kontrolü: En basit sorgu olan taksit sorgusu ile \(retrieve installment\) bir deneme yapabilirsiniz. \(sadece kartın ilk 6 hanesi ve taksit yapılacak tutar alınmakta\) Eğer bu sorgu başarılı sonuçlanıyor ise güvenlik anahtarı doğru demektir.
+2. Senaryo kontrolü: Taksit sorgusunda, conversationId parametresine türkçe karakterler ekleyerek deneyebilir misiniz? Örnek olarak; ş, ü, ğ, ç..vb gibi.
+3. Senaryo kontrolü: Yaptığınız sorgunun parametrelerini github üzerindeki kütüphanemizdeki örneklerde kullanılan parametreleri birebir set ederek bir deneme yapabilirsiniz. \([https://github.com/iyzico](https://github.com/iyzico)\)
 
 ## **Geçersiz istek hatası neden alınır ve nasıl çözülür?**
 
