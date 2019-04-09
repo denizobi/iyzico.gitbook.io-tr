@@ -26,7 +26,7 @@ iyzico'nun 2 ortamı bulunmaktadır ve birbirinden bağımsızdır. Özetlemek g
 | :--- | :--- | :--- |
 | Hesap Oluştur | ​[https://sandbox-merchant.iyzipay.com/auth](https://sandbox-merchant.iyzipay.com/auth)​ | ​[https://www.iyzico.com/hesap-olustur](https://www.iyzico.com/hesap-olustur)​ |
 | Panel | ​[https://sandbox-merchant.iyzipay.com/dashboard](https://sandbox-merchant.iyzipay.com/dashboard)​ | ​[https://merchant.iyzipay.com/dashboard](https://merchant.iyzipay.com/dashboard)​ |
-| baseUrl | ​[https://sandbox-api.iyzipay.com/](https://sandbox-api.iyzipay.com/)​ | ​[https://api.iyzipay.com/](https://api.iyzipay.com/)​ |
+| baseUrl | ​[https://sandbox-api.iyzipay.com/](https://sandbox-api.iyzipay.com/)​ | [​https://api.iyzipay.com](https://api.iyzipay.com) |
 | apiKey | Firma ayarları menüsünde görüntüleyebilirsiniz. "**sandbox-..."** ile başlar | Firma ayarları menüsünde görüntüleyebilirsiniz. |
 | secretKey | Firma ayarları menüsünde görüntüleyebilirsiniz. "**sandbox-..."** ile başlar | Firma ayarları menüsünde görüntüleyebilirsiniz. |
 | Login Sms Kodu | 123456 | Cep telefonunuza iletilir. |
