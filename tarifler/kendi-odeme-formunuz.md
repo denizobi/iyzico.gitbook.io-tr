@@ -19,11 +19,17 @@ Bu servisi kullanarak işleme gönderilecek kartın ilk 6 hanesinden, işlem yap
 
 **Ödeme**
 
-Bu servisi kullanarak tek çekim veya taksitli olarak\(iş modelinize uygun ise\) bir karttan para çekimi sağlayabilirsiniz. 
+Bu servisi kullanarak tek çekim veya taksitli olarak \(iş modelinize uygun ise\) bir karttan para çekimi sağlayabilirsiniz. 
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/92c400ddb66eb28f794d)
 
 **3D ile Ödeme**
 
-Tek çekim, taksitli ve tek tıkla ödeme işlemleri için uygundur. İşleme gönderilen kartın bakiyesinden ilgili miktarı çekme işlemi yapar. Bu servis ile ilgili detaylı bilgiyi [3D ile Ödeme](https://dev.iyzipay.com/tr/api/3d-ile-odeme) sayfamızdan edinebilirsiniz.
+Bu servisleri kullanarak tek çekim veya taksitli olarak \(iş modelinize uygun ise\) bir karttan para çekimi sağlayabilirsiniz. 2 Sorgudan oluşur, başlatma ve bitirme.
+
+
+
+
 
 **BKM Express ile Ödeme**
 
