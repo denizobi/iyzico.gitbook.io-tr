@@ -24,11 +24,17 @@ Bu servisi kullanarak başlatılan bir 3D ödemesinin, dönüş adresinize POST 
 
 ### İşlem Sorgula
 
-İşlem sorgulama servisi ile iyzico'daki herhangi bir ödeme işlemini, ilgili ödeme üzerindeki conversationId değeri ile sorgulayabilirsiniz.
+İşlem sorgulama servisi ile herhangi bir ödeme işlemini, ilgili ödeme / 3D ödeme başlat üzerindeki conversationId değeri ile sorgulayabilirsiniz.[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/cb37c0f635cf450839c6)
 
 ### İptal
 
+Tahsil edilen bir ödeme, banka kuralları gereği aynı gün içinde \(gün sonu yapılmadan\) iptal edilebilir.[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/942c169c1b93b2e83f86)
+
 ### İade
 
+Tahsil edilen bir ödeme, 365 gün 7/24 iade edilebilir.[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/adba0e9bd8f42f995ab1)
+
 ### Günlük İşlemler
+
+Gün içerisinde yapılan işlemlerin raporunu alabilirsiniz.[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/b0a9efe82d406cb46d3f)
 
