@@ -14,7 +14,7 @@
 * [Kendi ödeme formunuz \(API\)](tarifler/kendi-odeme-formunuz.md)
 * [Pazaryeri \(marketplace\)](tarifler/untitled.md)
 * [Kart Saklama \(tokenization\)](tarifler/kart-saklama.md)
-* [Alternatif methodlar \(APM\)](tarifler/alternatif-oedeme-methodlari-apm.md)
+* [Alternatif Ödeme \(APM\)](tarifler/alternatif-odeme.md)
 * [iyzilink API](tarifler/iyzilink-api.md)
 
 ## Sık Sorulan Sorular

@@ -1,2 +1,0 @@
-# Alternatif methodlar \(APM\)
-
