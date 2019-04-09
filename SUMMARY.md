@@ -13,8 +13,7 @@
 * [ödeme formu \(checkout\)](tarifler/odeme-formu.md)
 * [Kendi ödeme formunuz \(API\)](tarifler/kendi-odeme-formunuz.md)
 * [Pazaryeri \(marketplace\)](tarifler/untitled.md)
-* [Abonelik \(subscription\)](tarifler/abonelik.md)
-* [Tek tıkla ödeme \(one click\)](tarifler/tek-tikla-oedeme.md)
+* [Kart Saklama \(tokenization\)](tarifler/kart-saklama.md)
 * [Alternatif methodlar \(APM\)](tarifler/alternatif-oedeme-methodlari-apm.md)
 * [iyzilink API](tarifler/iyzilink-api.md)
 
