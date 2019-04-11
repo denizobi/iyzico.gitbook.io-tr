@@ -6,11 +6,13 @@ description: >-
 
 # Kendi ödeme formunuz \(API\)
 
-Öncelikle POSTMAN kullanarak iyzico'nun POSTMAN kütüphanesini import edebilirsiniz.
+Öncelikle iyzico'nun POSTMAN kütüphanesini import edebilirsiniz. Bu kütüphane ile programlama dili bağımsız olarak sorgularınızı test edip yanıtlarını görebilirsiniz.
 
 {% hint style="warning" %}
 [https://www.getpostman.com/collections/e883cd2eb09bf55cb1ff](https://www.getpostman.com/collections/e883cd2eb09bf55cb1ff)
 {% endhint %}
+
+![POSTMAN g&#xF6;r&#xFC;n&#xFC;m](../.gitbook/assets/image%20%2811%29.png)
 
 ### **Taksit ve Bin Sorgulama**
 
